@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <gazebo reference="baselink">
+        <material>Gazebo/White</material>
+    </gazebo>
+    <gazebo reference="link3">
+        <material>Gazebo/White</material>
+    </gazebo>
+    <gazebo reference="link7">
+        <material>Gazebo/White</material>
+    </gazebo>
+    <gazebo reference="tool_tip">
+        <material>Gazebo/Yellow</material>
+    </gazebo>
+    <gazebo reference="link1">
+        <material>Gazebo/Black</material>
+    </gazebo>
+    <gazebo reference="link2">
+        <material>Gazebo/Black</material>
+    </gazebo>
+    <gazebo reference="link4">
+        <material>Gazebo/Black</material>
+    </gazebo>
+    <gazebo reference="link5">
+        <material>Gazebo/Black</material>
+    </gazebo>
+    <gazebo reference="link6">
+        <material>Gazebo/Black</material>
+    </gazebo>
+    <gazebo reference="link8">
+        <material>Gazebo/Black</material>
+    </gazebo>
+    
+    <gazebo>
+        <plugin filename="libgazebo_ros2_control.so" name="arm_ros2_control">
+          <robot_param>robot_description</robot_param>
+          <robot_param_node>robot_state_publisher</robot_param_node>
+          <parameters>$(find arm_controller)/config/robotarm_controllers.yaml</parameters>
+        </plugin>
+      </gazebo>
+  
+
+</robot>

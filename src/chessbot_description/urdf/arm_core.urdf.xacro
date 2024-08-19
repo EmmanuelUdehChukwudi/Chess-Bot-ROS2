@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robot_name">
+  <material name="grey">
+    <color rgba="1.0 1.0 1.0 1.0"/>
+  </material>
+  <material name="black">
+    <color rgba="0.0 0.0 0.0 1.0"/>
+  </material>
+
+  <xacro:property name="base_length" default="0.22"/>
+  <xacro:property name="base_width" default="0.15"/>
+  <xacro:property name="base_heigth" default="0.055"/>
+  <xacro:property name="servo_length" default="0.04"/>
+  <xacro:property name="servo_radius" default="0.0075"/>
+  <xacro:property name="PI" default="3.14159"/>
+  <xacro:property name="a1" default="0.138"/>
+  <xacro:property name="a2" default="0.106"/>
+  <xacro:property name="a3" default="0.115"/>
+  <xacro:property name="a4" default="0.19"/>
+
+  <link name="base_link">
+    <visual>
+      <origin xyz="0.0 0.0 ${-base_heigth/2}" rpy="0.0 0.0 0.0"/>
+      <geometry>
+        <box size="${base_length} ${base_width} ${base_heigth}"/>
+      </geometry>
+      <material name="grey"/>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 ${-base_heigth/2}" rpy="0.0 0.0 0.0"/>
+      <geometry>
+        <box size="${base_length} ${base_width} ${base_heigth}"/>
+      </geometry>
+      <material name="grey"/>
+    </collision>
+    <xacro:box mass="50" length="${base_length}" width="${base_width}" height="${base_heigth}" 
+          xyz="0.0 0.0 ${-base_heigth/2}" rpy="0.0 0.0 0.0"/>
+  </link>
+
+  <link name="servo1">
+    <visual>
+      <origin xyz="0.0 0.0 ${-servo_length/2}" rpy="0.0 0.0 0.0"/>
+      <geometry>
+        <cylinder radius="${servo_radius}" length="${servo_length}"/>
+      </geometry>
+      <material name="black"/>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 ${-servo_length/2}" rpy="0.0 0.0 0.0"/>
+      <geometry>
+        <cylinder radius="${servo_radius}" length="${servo_length}"/>
+      </geometry>
+      <material name="black"/>
+    </collision>
+    <xacro:cylinder mass="2" radius="${servo_radius}" height="${servo_length}"
+            xyz="0.0 0.0 ${-servo_length/2}" rpy="0.0 0.0 0.0"/>
+  </link>
+
+  <link name="world"/>
+
+  <joint name="dummy" type="fixed">
+    <parent link="world"/>
+    <child link="base_link"/>
+    <origin xyz="0.0 0.0 ${base_heigth}" rpy="0.0 0.0 0.0"/>
+  </joint>
+  
+
+  <joint name="joint1" type="revolute">
+    <parent link="base_link"/>
+    <child link="servo1"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="0" upper="${PI}" velocity="50.0" effort="1000.0"/>
+    <origin xyz="0.0 0.0 ${servo_length}" rpy="0.0 0.0 0.0"/>
+  </joint>
+
+  <link name="servo2">
+    <visual>
+      <origin xyz="0.0 0.0 ${-servo_length/2}" rpy="0.0 0.0 0.0"/>
+      <geometry>
+        <cylinder radius="${servo_radius}" length="${servo_length}"/>
+      </geometry>
+      <material name="black"/>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 ${-servo_length/2}" rpy="0.0 0.0 0.0"/>
+      <geometry>
+        <cylinder radius="${servo_radius}" length="${servo_length}"/>
+      </geometry>
+      <material name="black"/>
+    </collision>
+    <xacro:cylinder mass="2" radius="${servo_radius}" height="${servo_length}"
+            xyz="0.0 0.0 ${-servo_length/2}" rpy="0.0 0.0 0.0"/>
+  </link>
+
+  <joint name="joint2" type="revolute">
+    <parent link="servo1"/>
+    <child link="servo2"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="0" upper="${PI}" velocity="50.0" effort="1000.0"/>
+    <origin xyz="0 ${-servo_length} 0" rpy="${PI/2} 0 0"/>
+  </joint>
+
+  <link name="arm1">
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <geometry>
+        <box size="${a2} 0.04 0.001"/>
+      </geometry>
+      <material name="grey"/>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <geometry>
+        <box size="${a2} 0.02 0.001"/>
+      </geometry>
+      <material name="grey"/>
+    </collision>
+    <xacro:box mass="0.2" length="${a2}" width="0.001" height="0.02" 
+          xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </link>
+
+  <joint name="arm_joint" type="fixed">
+    <parent link="servo2"/>
+    <child link="arm1"/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  
+  
+</robot>
