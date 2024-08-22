@@ -1,0 +1,7 @@
+setup.py
+chessbot_controller/__init__.py
+chessbot_controller/slider.py
+chessbot_controller.egg-info/PKG-INFO
+chessbot_controller.egg-info/SOURCES.txt
+chessbot_controller.egg-info/dependency_links.txt
+chessbot_controller.egg-info/top_level.txt

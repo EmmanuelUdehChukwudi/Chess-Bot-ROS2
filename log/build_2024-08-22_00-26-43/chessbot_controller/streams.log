@@ -1,0 +1,54 @@
+[0.033s] Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller -- -j4 -l4
+[0.121s] [ 50%] Built target slider_control
+[0.124s] [100%] Built target chessbot_controller
+[0.124s] [100%] Built target ament_cmake_python_symlink_chessbot_controller
+[0.541s] running egg_info
+[0.542s] writing chessbot_controller.egg-info/PKG-INFO
+[0.543s] writing dependency_links to chessbot_controller.egg-info/dependency_links.txt
+[0.543s] writing top-level names to chessbot_controller.egg-info/top_level.txt
+[0.547s] reading manifest file 'chessbot_controller.egg-info/SOURCES.txt'
+[0.547s] writing manifest file 'chessbot_controller.egg-info/SOURCES.txt'
+[0.591s] [100%] Built target ament_cmake_python_build_chessbot_controller_egg
+[0.605s] Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller -- -j4 -l4
+[0.639s] Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller
+[0.647s] -- Install configuration: ""
+[0.648s] -- Execute custom install script
+[0.648s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/environment/pythonpath.sh
+[0.649s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/environment/pythonpath.dsv
+[0.649s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/local/lib/python3.10/dist-packages/chessbot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[0.649s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/local/lib/python3.10/dist-packages/chessbot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.649s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/local/lib/python3.10/dist-packages/chessbot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.650s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/local/lib/python3.10/dist-packages/chessbot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[0.650s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/local/lib/python3.10/dist-packages/chessbot_controller/__init__.py
+[0.650s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/local/lib/python3.10/dist-packages/chessbot_controller/slider.py
+[0.651s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/lib/chessbot_controller/slider_control
+[0.651s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/lib/chessbot_controller/slider.py
+[0.652s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller//arm_controller.xml
+[0.652s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/lib/libchessbot_controller.so
+[0.652s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/include/chessbot_controller/arm_interface.hpp
+[0.653s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/include/chessbot_controller/visibility_control.h
+[0.654s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/config/arm_controllers.yaml
+[0.654s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/launch/controller.launch.py
+[0.654s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/environment/library_path.sh
+[0.654s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/environment/library_path.dsv
+[0.655s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/ament_index/resource_index/package_run_dependencies/chessbot_controller
+[0.655s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/ament_index/resource_index/parent_prefix_path/chessbot_controller
+[0.655s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/environment/ament_prefix_path.sh
+[0.656s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/environment/ament_prefix_path.dsv
+[0.656s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/environment/path.sh
+[0.656s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/environment/path.dsv
+[0.657s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/local_setup.bash
+[0.657s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/local_setup.sh
+[0.657s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/local_setup.zsh
+[0.657s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/local_setup.dsv
+[0.658s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/package.dsv
+[0.669s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/ament_index/resource_index/packages/chessbot_controller
+[0.670s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/chessbot_controller
+[0.670s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.670s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[0.671s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.671s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/cmake/chessbot_controllerConfig.cmake
+[0.671s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/cmake/chessbot_controllerConfig-version.cmake
+[0.671s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/package.xml
+[0.711s] Listing '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/local/lib/python3.10/dist-packages/chessbot_controller'...
+[0.720s] Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller

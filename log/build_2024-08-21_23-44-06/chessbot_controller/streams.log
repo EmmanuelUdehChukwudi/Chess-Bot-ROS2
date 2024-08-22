@@ -1,0 +1,44 @@
+[0.016s] Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller
+[0.902s] -- The C compiler identification is GNU 11.4.0
+[1.493s] -- The CXX compiler identification is GNU 11.4.0
+[1.560s] -- Detecting C compiler ABI info
+[1.795s] -- Detecting C compiler ABI info - done
+[1.804s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.805s] -- Detecting C compile features
+[1.853s] -- Detecting C compile features - done
+[1.866s] -- Detecting CXX compiler ABI info
+[2.049s] -- Detecting CXX compiler ABI info - done
+[2.062s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.062s] -- Detecting CXX compile features
+[2.063s] -- Detecting CXX compile features - done
+[2.109s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.304s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.379s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.483s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.728s] -- Added test 'lint_cmake' to check CMake code style
+[2.729s] -- Added test 'xmllint' to check XML markup files
+[2.731s] -- Configuring done
+[2.734s] -- Generating done
+[2.736s] -- Build files have been written to: /home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller
+[2.743s] Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller
+[2.745s] Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller -- -j4 -l4
+[2.786s] Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller -- -j4 -l4
+[2.812s] Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller
+[2.820s] -- Install configuration: ""
+[2.821s] -- Execute custom install script
+[2.821s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/ament_index/resource_index/package_run_dependencies/chessbot_controller
+[2.830s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/ament_index/resource_index/parent_prefix_path/chessbot_controller
+[2.841s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/environment/ament_prefix_path.sh
+[2.851s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/environment/ament_prefix_path.dsv
+[2.862s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/environment/path.sh
+[2.872s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/environment/path.dsv
+[2.882s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/local_setup.bash
+[2.892s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/local_setup.sh
+[2.902s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/local_setup.zsh
+[2.912s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/local_setup.dsv
+[2.923s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/package.dsv
+[2.933s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/ament_index/resource_index/packages/chessbot_controller
+[2.944s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/cmake/chessbot_controllerConfig.cmake
+[2.954s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/cmake/chessbot_controllerConfig-version.cmake
+[2.963s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/package.xml
+[2.976s] Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller

@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target slider_control[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/chessbot_controller.dir/src/arm_interface.cpp.o[0m
+[ 75%] Built target ament_cmake_python_symlink_chessbot_controller
+[ 75%] Built target slider_control
+In file included from [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller/src/arm_interface.cpp:1[m[K:
+[01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller/include/chessbot_controller/arm_interface.hpp:11:10:[m[K [01;31m[Kfatal error: [m[Karm_controller/visibility_control.h: No such file or directory
+   11 | #include [01;31m[K"arm_controller/visibility_control.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/chessbot_controller.dir/build.make:76: CMakeFiles/chessbot_controller.dir/src/arm_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:220: CMakeFiles/chessbot_controller.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+running egg_info
+writing chessbot_controller.egg-info/PKG-INFO
+writing dependency_links to chessbot_controller.egg-info/dependency_links.txt
+writing top-level names to chessbot_controller.egg-info/top_level.txt
+reading manifest file 'chessbot_controller.egg-info/SOURCES.txt'
+writing manifest file 'chessbot_controller.egg-info/SOURCES.txt'
+[ 75%] Built target ament_cmake_python_build_chessbot_controller_egg
+gmake: *** [Makefile:146: all] Error 2

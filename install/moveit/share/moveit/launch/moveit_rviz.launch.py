@@ -1,0 +1,1 @@
+/home/emmanuel/Chess-Bot-ROS2/src/moveit/launch/moveit_rviz.launch.py

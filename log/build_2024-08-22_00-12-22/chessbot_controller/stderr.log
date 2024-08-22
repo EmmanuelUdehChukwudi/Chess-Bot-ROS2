@@ -1,0 +1,9 @@
+In file included from [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller/src/arm_interface.cpp:1[m[K:
+[01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller/include/chessbot_controller/arm_interface.hpp:11:10:[m[K [01;31m[Kfatal error: [m[Karm_controller/visibility_control.h: No such file or directory
+   11 | #include [01;31m[K"arm_controller/visibility_control.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/chessbot_controller.dir/build.make:76: CMakeFiles/chessbot_controller.dir/src/arm_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:220: CMakeFiles/chessbot_controller.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

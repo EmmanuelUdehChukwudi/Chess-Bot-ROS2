@@ -1,0 +1,44 @@
+[0.036s] Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup
+[0.237s] -- The C compiler identification is GNU 11.4.0
+[0.325s] -- The CXX compiler identification is GNU 11.4.0
+[0.336s] -- Detecting C compiler ABI info
+[0.423s] -- Detecting C compiler ABI info - done
+[0.434s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.434s] -- Detecting C compile features
+[0.453s] -- Detecting C compile features - done
+[0.457s] -- Detecting CXX compiler ABI info
+[0.565s] -- Detecting CXX compiler ABI info - done
+[0.580s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.581s] -- Detecting CXX compile features
+[0.583s] -- Detecting CXX compile features - done
+[0.586s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.824s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.897s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.961s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.167s] -- Added test 'lint_cmake' to check CMake code style
+[1.168s] -- Added test 'xmllint' to check XML markup files
+[1.172s] -- Configuring done
+[1.183s] -- Generating done
+[1.184s] -- Build files have been written to: /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup
+[1.192s] Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup
+[1.194s] Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup -- -j4 -l4
+[1.238s] Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup -- -j4 -l4
+[1.263s] Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup
+[1.271s] -- Install configuration: ""
+[1.272s] -- Execute custom install script
+[1.272s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/ament_index/resource_index/package_run_dependencies/chessbot_bringup
+[1.282s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/ament_index/resource_index/parent_prefix_path/chessbot_bringup
+[1.291s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/environment/ament_prefix_path.sh
+[1.301s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/environment/ament_prefix_path.dsv
+[1.311s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/environment/path.sh
+[1.320s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/environment/path.dsv
+[1.330s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/local_setup.bash
+[1.340s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/local_setup.sh
+[1.350s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/local_setup.zsh
+[1.360s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/local_setup.dsv
+[1.370s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/package.dsv
+[1.380s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/ament_index/resource_index/packages/chessbot_bringup
+[1.389s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/cmake/chessbot_bringupConfig.cmake
+[1.400s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/cmake/chessbot_bringupConfig-version.cmake
+[1.410s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/package.xml
+[1.422s] Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup

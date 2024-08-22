@@ -1,0 +1,83 @@
+[0.018s] Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller -- -j4 -l4
+[0.095s] [ 25%] [32mBuilding CXX object CMakeFiles/chessbot_controller.dir/src/arm_interface.cpp.o[0m
+[0.103s] [ 75%] Built target slider_control
+[0.108s] [ 75%] Built target ament_cmake_python_symlink_chessbot_controller
+[0.523s] running egg_info
+[0.524s] writing chessbot_controller.egg-info/PKG-INFO
+[0.525s] writing dependency_links to chessbot_controller.egg-info/dependency_links.txt
+[0.525s] writing top-level names to chessbot_controller.egg-info/top_level.txt
+[0.530s] reading manifest file 'chessbot_controller.egg-info/SOURCES.txt'
+[0.531s] writing manifest file 'chessbot_controller.egg-info/SOURCES.txt'
+[0.573s] [ 75%] Built target ament_cmake_python_build_chessbot_controller_egg
+[3.144s] [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller/src/arm_interface.cpp:[m[K In member function ‘[01m[Kvirtual arm_controller::CallbackReturn arm_controller::RobotArmInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[3.145s] [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller/src/arm_interface.cpp:88:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.145s]    88 | CallbackReturn RobotArmInterface::on_activate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+[3.145s]       |                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[3.147s] [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller/src/arm_interface.cpp:[m[K In member function ‘[01m[Kvirtual arm_controller::CallbackReturn arm_controller::RobotArmInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[3.147s] [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller/src/arm_interface.cpp:112:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.147s]   112 | CallbackReturn RobotArmInterface::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+[3.147s]       |                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[3.148s] [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller/src/arm_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type arm_controller::RobotArmInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[3.148s] [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller/src/arm_interface.cpp:134:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.148s]   134 | hardware_interface::return_type RobotArmInterface::read([01;35m[Kconst rclcpp::Time &time[m[K,
+[3.148s]       |                                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[3.148s] [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller/src/arm_interface.cpp:135:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.149s]   135 |                                                           [01;35m[Kconst rclcpp::Duration &period[m[K)
+[3.149s]       |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[3.152s] [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller/src/arm_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type arm_controller::RobotArmInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[3.152s] [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller/src/arm_interface.cpp:177:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgripper_twist[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.152s]   177 |         int [01;35m[Kgripper_twist[m[K = static_cast<int>((position_commands_.at(5))* 180) / M_PI;
+[3.152s]       |             [01;35m[K^~~~~~~~~~~~~[m[K
+[3.152s] [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller/src/arm_interface.cpp:142:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.153s]   142 | hardware_interface::return_type RobotArmInterface::write([01;35m[Kconst rclcpp::Time &time[m[K,
+[3.153s]       |                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[3.153s] [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller/src/arm_interface.cpp:143:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.153s]   143 |                                                            [01;35m[Kconst rclcpp::Duration &period[m[K)
+[3.153s]       |                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[4.571s] [100%] [32m[1mLinking CXX shared library libchessbot_controller.so[0m
+[5.134s] [100%] Built target chessbot_controller
+[5.146s] Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller -- -j4 -l4
+[5.181s] Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller
+[5.190s] -- Install configuration: ""
+[5.190s] -- Execute custom install script
+[5.191s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/environment/pythonpath.sh
+[5.201s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/environment/pythonpath.dsv
+[5.212s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/local/lib/python3.10/dist-packages/chessbot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[5.222s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/local/lib/python3.10/dist-packages/chessbot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.232s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/local/lib/python3.10/dist-packages/chessbot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.242s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/local/lib/python3.10/dist-packages/chessbot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[5.253s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/local/lib/python3.10/dist-packages/chessbot_controller/__init__.py
+[5.263s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/local/lib/python3.10/dist-packages/chessbot_controller/slider.py
+[5.274s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/lib/chessbot_controller/slider_control
+[5.284s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/lib/chessbot_controller/slider.py
+[5.295s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller//arm_controller.xml
+[5.318s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/lib/libchessbot_controller.so
+[5.327s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/include/chessbot_controller/arm_interface.hpp
+[5.337s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/include/chessbot_controller/visibility_control.h
+[5.347s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/config/arm_controllers.yaml
+[5.357s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/launch/controller.launch.py
+[5.367s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/environment/library_path.sh
+[5.378s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/environment/library_path.dsv
+[5.388s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/ament_index/resource_index/package_run_dependencies/chessbot_controller
+[5.388s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/ament_index/resource_index/parent_prefix_path/chessbot_controller
+[5.388s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/environment/ament_prefix_path.sh
+[5.389s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/environment/ament_prefix_path.dsv
+[5.389s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/environment/path.sh
+[5.389s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/environment/path.dsv
+[5.390s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/local_setup.bash
+[5.390s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/local_setup.sh
+[5.390s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/local_setup.zsh
+[5.390s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/local_setup.dsv
+[5.391s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/package.dsv
+[5.401s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/ament_index/resource_index/packages/chessbot_controller
+[5.401s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/chessbot_controller
+[5.412s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.423s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[5.433s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.443s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/cmake/chessbot_controllerConfig.cmake
+[5.443s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/cmake/chessbot_controllerConfig-version.cmake
+[5.443s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/package.xml
+[5.764s] Listing '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/local/lib/python3.10/dist-packages/chessbot_controller'...
+[5.765s] Compiling '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/local/lib/python3.10/dist-packages/chessbot_controller/__init__.py'...
+[5.765s] Compiling '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/local/lib/python3.10/dist-packages/chessbot_controller/slider.py'...
+[5.781s] Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller

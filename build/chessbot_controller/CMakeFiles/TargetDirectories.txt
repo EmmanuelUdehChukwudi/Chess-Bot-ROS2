@@ -1,0 +1,13 @@
+/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller/CMakeFiles/uninstall.dir
+/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller/CMakeFiles/chessbot_controller_uninstall.dir
+/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller/CMakeFiles/slider_control.dir
+/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller/CMakeFiles/ament_cmake_python_symlink_chessbot_controller.dir
+/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller/CMakeFiles/ament_cmake_python_build_chessbot_controller_egg.dir
+/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller/CMakeFiles/chessbot_controller.dir
+/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller/CMakeFiles/test.dir
+/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller/CMakeFiles/edit_cache.dir
+/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller/CMakeFiles/rebuild_cache.dir
+/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller/CMakeFiles/list_install_components.dir
+/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller/CMakeFiles/install.dir
+/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller/CMakeFiles/install/local.dir
+/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller/CMakeFiles/install/strip.dir

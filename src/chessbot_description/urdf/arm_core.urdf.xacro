@@ -18,6 +18,16 @@
   <xacro:property name="a3" default="0.115"/>
   <xacro:property name="a4" default="0.19"/>
 
+  <xacro:macro name="arm_default_transmission" params="joint_number" >
+      <plugin>transmission_interface/SimpleTransmission</plugin>
+      <transmission name="transmission_${joint_number}">
+          <joint name="joint${joint_number}" role="joint1">
+              <mechanicalReduction>1.0</mechanicalReduction>
+          </joint>
+          <actuator name="servo${joint_number}" role="actuator1"/>
+      </transmission>
+  </xacro:macro>
+
   <link name="base_link">
     <visual>
       <origin xyz="0.0 0.0 ${-base_heigth/2}" rpy="0.0 0.0 0.0"/>
@@ -102,28 +112,253 @@
 
   <link name="arm1">
     <visual>
-      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <origin xyz="${-a2/2} 0.0 0.0" rpy="0.0 0.0 0.0"/>
       <geometry>
-        <box size="${a2} 0.04 0.001"/>
+        <box size="${a2} 0.02 0.001"/>
       </geometry>
       <material name="grey"/>
     </visual>
     <collision>
-      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <origin xyz="${-a2/2} 0.0 0.0" rpy="0.0 0.0 0.0"/>
       <geometry>
         <box size="${a2} 0.02 0.001"/>
       </geometry>
       <material name="grey"/>
     </collision>
     <xacro:box mass="0.2" length="${a2}" width="0.001" height="0.02" 
-          xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+          xyz="${-a2/2} 0.0 0.0" rpy="0.0 0.0 0.0"/>
   </link>
 
   <joint name="arm_joint" type="fixed">
     <parent link="servo2"/>
     <child link="arm1"/>
-    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    <origin xyz="${a2} 0.0 0.0" rpy="0.0 0.0 0.0"/>
   </joint>
+
+  <link name="servo3">
+    <visual>
+      <origin xyz="0.0 0.0 ${servo_length/2}" rpy="0.0 0.0 0.0"/>
+      <geometry>
+        <cylinder radius="${servo_radius}" length="${servo_length}"/>
+      </geometry>
+      <material name="black"/>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 ${servo_length/2}" rpy="0.0 0.0 0.0"/>
+      <geometry>
+        <cylinder radius="${servo_radius}" length="${servo_length}"/>
+      </geometry>
+      <material name="black"/>
+    </collision>
+    <xacro:cylinder mass="2" radius="${servo_radius}" height="${servo_length}"
+            xyz="0.0 0.0 ${servo_length/2}" rpy="0.0 0.0 0.0"/>
+  </link>
   
+  <joint name="joint3" type="revolute">
+    <parent link="arm1"/>
+    <child link="servo3"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="0" upper="${PI}" velocity="50.0" effort="1000.0"/>
+    <origin xyz="0 0 0" rpy="${PI} 0 0"/>
+  </joint>
+
+  <link name="servo4">
+    <visual>
+      <origin xyz="0.0 0.0 ${-0.103/2}" rpy="0.0 0.0 0.0"/>
+      <geometry>
+        <cylinder radius="${servo_radius}" length="0.103"/>
+      </geometry>
+      <material name="black"/>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 ${-0.103/2}" rpy="0.0 0.0 0.0"/>
+      <geometry>
+        <cylinder radius="${servo_radius}" length="0.103"/>
+      </geometry>
+      <material name="black"/>
+    </collision>
+    <xacro:cylinder mass="2" radius="${servo_radius}" height="${servo_length}"
+            xyz="0.0 0.0 ${-0.103/2}" rpy="0.0 0.0 0.0"/>
+  </link>
+
+  <joint name="joint4" type="revolute">
+    <parent link="servo3"/>
+    <child link="servo4"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="0" upper="${PI}" velocity="50.0" effort="1000.0"/>
+    <origin xyz="0 -0.103 0" rpy="${PI/2} 0 0"/>
+  </joint>
+
+  <link name="servo5">
+    <visual>
+      <origin xyz="0.0 0.0 ${-servo_length/2}" rpy="0.0 0.0 0.0"/>
+      <geometry>
+        <cylinder radius="${servo_radius}" length="${servo_length}"/>
+      </geometry>
+      <material name="black"/>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 ${-servo_length/2}" rpy="0.0 0.0 0.0"/>
+      <geometry>
+        <cylinder radius="${servo_radius}" length="${servo_length}"/>
+      </geometry>
+      <material name="black"/>
+    </collision>
+    <xacro:cylinder mass="2" radius="${servo_radius}" height="${servo_length}"
+            xyz="0.0 0.0 ${-servo_length/2}" rpy="0.0 0.0 0.0"/>
+  </link>
+
+  <joint name="joint5" type="revolute">
+    <parent link="servo4"/>
+    <child link="servo5"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="0" upper="${PI}" velocity="50.0" effort="1000.0"/>
+    <origin xyz="${servo_length} 0 0" rpy="${PI/2} 0 ${PI/2}"/>
+  </joint>
+
+  <link name="arm2">
+    <visual>
+      <origin xyz="-0.03 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <geometry>
+        <box size="0.06 0.02 0.001"/>
+      </geometry>
+      <material name="grey"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.03 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <geometry>
+        <box size="${a4} 0.02 0.001"/>
+      </geometry>
+      <material name="grey"/>
+    </collision>
+    <xacro:box mass="0.2" length="0.06" width="0.001" height="0.02" 
+          xyz="-0.03 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </link>
+
+  <joint name="arm2_joint" type="fixed">
+    <parent link="servo5"/>
+    <child link="arm2"/>
+    <origin xyz="0.06 0.0 0.0" rpy="${-PI/2} 0.0 0.0"/>
+  </joint>
+
+  <link name="servo6">
+    <visual>
+      <origin xyz="0.0 0.0 -0.03" rpy="0.0 0.0 0.0"/>
+      <geometry>
+        <cylinder radius="${servo_radius}" length="${servo_length}"/>
+      </geometry>
+      <material name="black"/>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 -0.03" rpy="0.0 0.0 0.0"/>
+      <geometry>
+        <cylinder radius="${servo_radius}" length="${servo_length}"/>
+      </geometry>
+      <material name="black"/>
+    </collision>
+    <xacro:cylinder mass="2" radius="${servo_radius}" height="${servo_length}"
+            xyz="0.0 0.0 -0.03" rpy="0.0 0.0 0.0"/>
+  </link>
+
+  <joint name="joint6" type="revolute">
+    <parent link="arm2"/>
+    <child link="servo6"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="0" upper="${PI}" velocity="50.0" effort="1000.0"/>
+    <origin xyz="0.06 0 0" rpy="0 ${-3*PI/2} 0"/>
+  </joint>
+
+  <link name="gripper_support">
+    <visual>
+      <origin xyz="0.0 0.0 -0.03" rpy="0.0 ${PI/2} 0.0"/>
+      <geometry>
+        <box size="0.06 0.02 0.001"/>
+      </geometry>
+      <material name="grey"/>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 -0.03" rpy="0.0 ${PI/2} 0.0"/>
+      <geometry>
+        <box size="${a4} 0.02 0.001"/>
+      </geometry>
+      <material name="grey"/>
+    </collision>
+    <xacro:box mass="0.2" length="0.06" width="0.001" height="0.02" 
+          xyz="0.0 0.0 -0.03" rpy="0.0 ${PI/2} 0.0"/>
+  </link>
+
+  <joint name="gripper_joint" type="fixed">
+    <parent link="servo6"/>
+    <child link="gripper_support"/>
+    <origin xyz="0.0 0.0 0.03" rpy="0.0 0.0 0.0"/>
+  </joint>
+
+  <link name="gripper_right">
+    <visual>
+        <origin rpy="0 0 0" xyz="-0.06 0.0 0.0"/>
+        <geometry>
+            <mesh filename="package://chessbot_description/meshes/left_finger.STL" scale="0.001 0.001 0.001"/>
+        </geometry>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="-0.06 0.0 0.0"/>
+        <geometry>
+            <mesh filename="package://chessbot_description/meshes/left_finger.STL" scale="0.001 0.001 0.001"/>  
+        </geometry>
+    </collision>
+    <xacro:box mass="0.1" length="0.06" width="0.02" height="0.001" 
+          rpy="0 0 0" xyz="-0.06 0.0 0.0"/>
+</link>
+
+<joint name ="joint7" type="revolute">
+  <parent link="gripper_support"/>
+  <child link = "gripper_right"/>
+  <origin xyz="0.0 -0.01 0.0" rpy="0.0 ${PI/2} 0.0"/>
+  <axis xyz="0 0 1"/>
+  <limit lower="0.0" upper="${7*PI/36}" 
+         effort="1000" velocity="10"/>
+</joint>
+
+  <link name="gripper_left">
+    <visual>
+        <origin rpy="0 0 0" xyz="-0.06 0.0 0.0"/>
+        <geometry>
+            <mesh filename="package://chessbot_description/meshes/right_finger.STL" scale="0.001 0.001 0.001"/>
+        </geometry>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="-0.06 0.0 0.0"/>
+        <geometry>
+            <mesh filename="package://chessbot_description/meshes/right_finger.STL" scale="0.001 0.001 0.001"/>  
+        </geometry>
+    </collision>
+    <xacro:box mass="0.1" length="0.06" width="0.02" height="0.001" 
+          rpy="0 0 0" xyz="-0.06 0.0 0.0"/>
+</link>
+
+<joint name ="joint8" type="revolute">
+  <parent link="gripper_support"/>
+  <child link = "gripper_left"/>
+  <origin xyz="0.0 0.0 0.0" rpy="0.0 ${PI/2} 0.0"/>
   
+  <axis xyz="0 0 1"/>
+  <limit lower="${-7*PI/36}" upper="0.0" 
+         effort="1000" velocity="10"/>
+         <mimic joint="joint7" multiplier="-1"/>
+</joint>
+
+<joint name="joint8_mimic" type="fixed">
+  <parent link="world" />
+  <child link="random" />
+</joint>
+<link name="random"/> 
+    <xacro:arm_default_transmission joint_number="1"></xacro:arm_default_transmission>
+    <xacro:arm_default_transmission joint_number="2"></xacro:arm_default_transmission>
+    <xacro:arm_default_transmission joint_number="3"></xacro:arm_default_transmission>
+    <xacro:arm_default_transmission joint_number="4"></xacro:arm_default_transmission>
+    <xacro:arm_default_transmission joint_number="5"></xacro:arm_default_transmission>
+    <xacro:arm_default_transmission joint_number="6"></xacro:arm_default_transmission>
+    <xacro:arm_default_transmission joint_number="7"></xacro:arm_default_transmission>
+    <xacro:arm_default_transmission joint_number="8"></xacro:arm_default_transmission>
+
 </robot>

@@ -1,0 +1,35 @@
+[0.040s] Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_moveit -- -j4 -l4
+[0.083s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.400s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.559s] -- Configuring done
+[0.568s] -- Generating done
+[0.568s] -- Build files have been written to: /home/emmanuel/Chess-Bot-ROS2/build/chessbot_moveit
+[0.610s] Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_moveit -- -j4 -l4
+[0.649s] Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/Chess-Bot-ROS2/build/chessbot_moveit
+[0.659s] -- Install configuration: ""
+[0.660s] -- Execute custom install script
+[0.661s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/launch/moveit.launch.py
+[0.674s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/config/arm.srdf
+[0.690s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/config/arm.urdf.xacro
+[0.706s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/config/initial_positions.yaml
+[0.722s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/config/joint_limits.yaml
+[0.737s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/config/kinematics.yaml
+[0.749s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/config/moveit.rviz
+[0.764s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/config/moveit_controllers.yaml
+[0.780s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/config/pilz_cartesian_limits.yaml
+[0.793s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/ament_index/resource_index/package_run_dependencies/chessbot_moveit
+[0.793s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/ament_index/resource_index/parent_prefix_path/chessbot_moveit
+[0.794s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/environment/ament_prefix_path.sh
+[0.794s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/environment/ament_prefix_path.dsv
+[0.795s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/environment/path.sh
+[0.795s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/environment/path.dsv
+[0.795s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/local_setup.bash
+[0.796s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/local_setup.sh
+[0.796s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/local_setup.zsh
+[0.797s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/local_setup.dsv
+[0.797s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/package.dsv
+[0.812s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/ament_index/resource_index/packages/chessbot_moveit
+[0.813s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/cmake/chessbot_moveitConfig.cmake
+[0.813s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/cmake/chessbot_moveitConfig-version.cmake
+[0.814s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/package.xml
+[0.818s] Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/Chess-Bot-ROS2/build/chessbot_moveit

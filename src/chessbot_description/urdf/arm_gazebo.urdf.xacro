@@ -4,31 +4,34 @@
     <gazebo reference="baselink">
         <material>Gazebo/White</material>
     </gazebo>
-    <gazebo reference="link3">
+    <gazebo reference="servo1">
         <material>Gazebo/White</material>
     </gazebo>
-    <gazebo reference="link7">
-        <material>Gazebo/White</material>
-    </gazebo>
-    <gazebo reference="tool_tip">
-        <material>Gazebo/Yellow</material>
-    </gazebo>
-    <gazebo reference="link1">
+    <gazebo reference="servo2">
         <material>Gazebo/Black</material>
     </gazebo>
-    <gazebo reference="link2">
+    <gazebo reference="servo3">
         <material>Gazebo/Black</material>
     </gazebo>
-    <gazebo reference="link4">
+    <gazebo reference="servo4">
         <material>Gazebo/Black</material>
     </gazebo>
-    <gazebo reference="link5">
+    <gazebo reference="servo5">
         <material>Gazebo/Black</material>
     </gazebo>
-    <gazebo reference="link6">
+    <gazebo reference="servo6">
         <material>Gazebo/Black</material>
     </gazebo>
-    <gazebo reference="link8">
+    <gazebo reference="servo7">
+        <material>Gazebo/Black</material>
+    </gazebo>
+    <gazebo reference="servo8">
+        <material>Gazebo/Black</material>
+    </gazebo>
+    <gazebo reference="arm1">
+        <material>Gazebo/Black</material>
+    </gazebo>
+    <gazebo reference="arm2">
         <material>Gazebo/Black</material>
     </gazebo>
     
@@ -36,9 +39,9 @@
         <plugin filename="libgazebo_ros2_control.so" name="arm_ros2_control">
           <robot_param>robot_description</robot_param>
           <robot_param_node>robot_state_publisher</robot_param_node>
-          <parameters>$(find arm_controller)/config/robotarm_controllers.yaml</parameters>
+          <parameters>$(find chessbot_controller)/config/arm_controllers.yaml</parameters>
         </plugin>
-      </gazebo>
+    </gazebo>
   
 
 </robot>

@@ -1,0 +1,6 @@
+Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup
+Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup
+Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup -- -j4 -l4
+Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup -- -j4 -l4
+Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup
+Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup

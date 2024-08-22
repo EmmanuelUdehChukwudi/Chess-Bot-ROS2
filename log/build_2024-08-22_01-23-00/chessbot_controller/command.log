@@ -1,0 +1,4 @@
+Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller -- -j4 -l4
+Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller -- -j4 -l4
+Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller
+Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller

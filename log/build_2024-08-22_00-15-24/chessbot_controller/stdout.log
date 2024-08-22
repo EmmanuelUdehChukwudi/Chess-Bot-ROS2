@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target slider_control[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/chessbot_controller.dir/src/arm_interface.cpp.o[0m
+[ 75%] Built target ament_cmake_python_symlink_chessbot_controller
+[ 75%] Built target slider_control
+running egg_info
+writing chessbot_controller.egg-info/PKG-INFO
+writing dependency_links to chessbot_controller.egg-info/dependency_links.txt
+writing top-level names to chessbot_controller.egg-info/top_level.txt
+reading manifest file 'chessbot_controller.egg-info/SOURCES.txt'
+writing manifest file 'chessbot_controller.egg-info/SOURCES.txt'
+[ 75%] Built target ament_cmake_python_build_chessbot_controller_egg

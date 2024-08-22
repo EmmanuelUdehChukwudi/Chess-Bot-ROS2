@@ -1,0 +1,1 @@
+/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake

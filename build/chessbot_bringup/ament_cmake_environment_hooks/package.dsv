@@ -1,0 +1,4 @@
+source;share/chessbot_bringup/local_setup.bash
+source;share/chessbot_bringup/local_setup.dsv
+source;share/chessbot_bringup/local_setup.sh
+source;share/chessbot_bringup/local_setup.zsh

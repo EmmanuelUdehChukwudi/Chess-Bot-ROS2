@@ -1,9 +1,12 @@
 /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/launch/display.launch.xml
+/home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/launch/gazebo_sim.launch.py
 /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/urdf/arm_core.urdf.xacro
 /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/urdf/arm_gazebo.urdf.xacro
 /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/urdf/arm_inertia.urdf.xacro
 /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/urdf/arm_ros2_control.urdf.xacro
 /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/urdf/main.urdf.xacro
+/home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/meshes/left_finger.STL
+/home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/meshes/right_finger.STL
 /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/ament_index/resource_index/package_run_dependencies/chessbot_description
 /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/ament_index/resource_index/parent_prefix_path/chessbot_description
 /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/environment/ament_prefix_path.sh

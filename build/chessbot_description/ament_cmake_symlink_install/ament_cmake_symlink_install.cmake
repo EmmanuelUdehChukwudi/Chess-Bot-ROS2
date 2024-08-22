@@ -310,8 +310,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "launch" "urdf" "rviz" "config" "DESTINATION" "share/chessbot_description")
-ament_cmake_symlink_install_directory("/home/emmanuel/Chess-Bot-ROS2/src/chessbot_description" DIRECTORY "launch" "urdf" "rviz" "config" "DESTINATION" "share/chessbot_description")
+# install(DIRECTORY "launch" "urdf" "rviz" "config" "meshes" "DESTINATION" "share/chessbot_description")
+ament_cmake_symlink_install_directory("/home/emmanuel/Chess-Bot-ROS2/src/chessbot_description" DIRECTORY "launch" "urdf" "rviz" "config" "meshes" "DESTINATION" "share/chessbot_description")
 
 # install(FILES "/home/emmanuel/Chess-Bot-ROS2/build/chessbot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/chessbot_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/emmanuel/Chess-Bot-ROS2/src/chessbot_description" FILES "/home/emmanuel/Chess-Bot-ROS2/build/chessbot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/chessbot_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
