@@ -176,7 +176,7 @@ hardware_interface::return_type RobotArmInterface::write(const rclcpp::Time &tim
 
         int gripper_twist = static_cast<int>((position_commands_.at(5))* 180) / M_PI;
         msg.append("j");
-        msg.append(std::to_string(wrist_twist));
+        msg.append(std::to_string(gripper_twist));
         msg.append(",");
 
         int tool_tip = static_cast<int>((position_commands_.at(6))* 180) / M_PI;

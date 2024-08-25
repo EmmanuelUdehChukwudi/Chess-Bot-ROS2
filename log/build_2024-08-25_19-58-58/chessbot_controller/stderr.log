@@ -1,0 +1,28 @@
+[01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller/src/arm_interface.cpp:[m[K In member function ‘[01m[Kvirtual arm_controller::CallbackReturn arm_controller::RobotArmInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller/src/arm_interface.cpp:88:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   88 | turn RobotArmInterface::on_activate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+      |                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller/src/arm_interface.cpp:[m[K In member function ‘[01m[Kvirtual arm_controller::CallbackReturn arm_controller::RobotArmInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller/src/arm_interface.cpp:112:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  112 | rn RobotArmInterface::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+      |                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller/src/arm_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type arm_controller::RobotArmInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller/src/arm_interface.cpp:134:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  134 | dware_interface::return_type RobotArmInterface::read([01;35m[Kconst rclcpp::Time &time[m[K,
+      |                                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+
+[01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller/src/arm_interface.cpp:135:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  135 |                                                [01;35m[Kconst rclcpp::Duration &period[m[K)
+      |                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+
+[01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller/src/arm_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type arm_controller::RobotArmInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller/src/arm_interface.cpp:142:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  142 | ware_interface::return_type RobotArmInterface::write([01;35m[Kconst rclcpp::Time &time[m[K,
+      |                                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+
+[01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller/src/arm_interface.cpp:143:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  143 |                                                [01;35m[Kconst rclcpp::Duration &period[m[K)
+      |                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+

@@ -10,7 +10,7 @@ class SliderControl(Node):
 
     def __init__(self):
         super().__init__("slider_control")
-        self.arm_pub_ = self.create_publisher(JointTrajectory, "chessbot_controller/joint_trajectory", 10)
+        self.arm_pub_ = self.create_publisher(JointTrajectory, "arm_controller/joint_trajectory", 10)
         self.sub_ = self.create_subscription(JointState, "joint_commands", self.sliderCallback, 10)
         self.get_logger().info("Slider Control Node started")
 

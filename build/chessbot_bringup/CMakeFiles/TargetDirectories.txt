@@ -1,5 +1,8 @@
 /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup/CMakeFiles/uninstall.dir
 /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup/CMakeFiles/chessbot_bringup_uninstall.dir
+/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup/CMakeFiles/goto_goal.dir
+/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup/CMakeFiles/add_collision.dir
+/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup/CMakeFiles/pick_and_place.dir
 /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup/CMakeFiles/test.dir
 /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup/CMakeFiles/edit_cache.dir
 /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,104 @@
+[0.029s] Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup -- -j4 -l4
+[0.081s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.348s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.357s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.398s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.402s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.411s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.429s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.451s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.531s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.532s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.572s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.839s] -- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[0.854s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[1.886s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.895s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.910s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.965s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.010s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.203s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.839s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[3.508s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[3.816s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[4.365s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[4.379s] -- Found moveit_ros_perception: 2.5.5 (/opt/ros/humble/share/moveit_ros_perception/cmake)
+[4.384s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[4.783s] -- Checking for module 'glut'
+[4.785s] --   No package 'glut' found
+[4.873s] -- Configuring done
+[4.948s] -- Generating done
+[4.951s] -- Build files have been written to: /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup
+[4.993s] [35m[1mConsolidate compiler generated dependencies of target goto_goal[0m
+[4.993s] [35m[1mConsolidate compiler generated dependencies of target add_collision[0m
+[5.006s] [ 16%] [32mBuilding CXX object CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o[0m
+[5.038s] [ 83%] Built target add_collision
+[5.038s] [ 83%] Built target goto_goal
+[5.983s] In file included from [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup/src/pick_and_place.cpp:4[m[K:
+[5.983s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[5.983s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[5.983s]       |  [01;35m[K^~~~~~~[m[K
+[11.118s] [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup/src/pick_and_place.cpp:[m[K In function ‘[01m[Kvoid pick(moveit::planning_interface::MoveGroupInterface&)[m[K’:
+[11.119s] [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup/src/pick_and_place.cpp:64:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’ has no member named ‘[01m[Kpick[m[K’
+[11.119s]    64 |     move_group.[01;31m[Kpick[m[K("object", grasps);
+[11.119s]       |                [01;31m[K^~~~[m[K
+[11.120s] [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup/src/pick_and_place.cpp:[m[K In function ‘[01m[Kvoid place(moveit::planning_interface::MoveGroupInterface&)[m[K’:
+[11.120s] [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup/src/pick_and_place.cpp:69:35:[m[K [01;31m[Kerror: [m[K‘[01m[KPlaceLocation[m[K’ is not a member of ‘[01m[Kmoveit_msgs::msg[m[K’
+[11.120s]    69 |     std::vector<moveit_msgs::msg::[01;31m[KPlaceLocation[m[K> place_location;
+[11.120s]       |                                   [01;31m[K^~~~~~~~~~~~~[m[K
+[11.120s] [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup/src/pick_and_place.cpp:69:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[11.121s]    69 |     std::vector<moveit_msgs::msg::PlaceLocation[01;31m[K>[m[K place_location;
+[11.121s]       |                                                [01;31m[K^[m[K
+[11.121s] [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup/src/pick_and_place.cpp:69:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[11.121s] [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup/src/pick_and_place.cpp:70:20:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kresize[m[K’ in ‘[01m[Kplace_location[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[11.121s]    70 |     place_location.[01;31m[Kresize[m[K(1);
+[11.122s]       |                    [01;31m[K^~~~~~[m[K
+[11.122s] [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup/src/pick_and_place.cpp:73:19:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[11.122s]    73 |     place_location[01;31m[K[[m[K0].place_pose.header.frame_id = "base_link";
+[11.122s]       |                   [01;31m[K^[m[K
+[11.122s] [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup/src/pick_and_place.cpp:78:19:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[11.122s]    78 |     place_location[01;31m[K[[m[K0].place_pose.pose.orientation = tf2::toMsg(orientation);
+[11.122s]       |                   [01;31m[K^[m[K
+[11.122s] [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup/src/pick_and_place.cpp:79:19:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[11.123s]    79 |     place_location[01;31m[K[[m[K0].place_pose.pose.position.x = 0;
+[11.123s]       |                   [01;31m[K^[m[K
+[11.123s] [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup/src/pick_and_place.cpp:80:19:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[11.123s]    80 |     place_location[01;31m[K[[m[K0].place_pose.pose.position.y = 1;
+[11.123s]       |                   [01;31m[K^[m[K
+[11.123s] [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup/src/pick_and_place.cpp:81:19:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[11.123s]    81 |     place_location[01;31m[K[[m[K0].place_pose.pose.position.z = 0.5;
+[11.123s]       |                   [01;31m[K^[m[K
+[11.123s] [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup/src/pick_and_place.cpp:84:19:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[11.124s]    84 |     place_location[01;31m[K[[m[K0].pre_place_approach.direction.header.frame_id = "base_link";
+[11.124s]       |                   [01;31m[K^[m[K
+[11.124s] [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup/src/pick_and_place.cpp:85:19:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[11.124s]    85 |     place_location[01;31m[K[[m[K0].pre_place_approach.direction.vector.z = -1.0;
+[11.124s]       |                   [01;31m[K^[m[K
+[11.124s] [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup/src/pick_and_place.cpp:86:19:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[11.124s]    86 |     place_location[01;31m[K[[m[K0].pre_place_approach.min_distance = 0.095;
+[11.124s]       |                   [01;31m[K^[m[K
+[11.125s] [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup/src/pick_and_place.cpp:87:19:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[11.125s]    87 |     place_location[01;31m[K[[m[K0].pre_place_approach.desired_distance = 0.115;
+[11.125s]       |                   [01;31m[K^[m[K
+[11.125s] [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup/src/pick_and_place.cpp:90:19:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[11.125s]    90 |     place_location[01;31m[K[[m[K0].post_place_retreat.direction.header.frame_id = "base_link";
+[11.125s]       |                   [01;31m[K^[m[K
+[11.125s] [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup/src/pick_and_place.cpp:91:19:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[11.125s]    91 |     place_location[01;31m[K[[m[K0].post_place_retreat.direction.vector.x = -1.0;
+[11.126s]       |                   [01;31m[K^[m[K
+[11.126s] [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup/src/pick_and_place.cpp:92:19:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[11.126s]    92 |     place_location[01;31m[K[[m[K0].post_place_retreat.min_distance = 0.1;
+[11.126s]       |                   [01;31m[K^[m[K
+[11.126s] [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup/src/pick_and_place.cpp:93:19:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[11.126s]    93 |     place_location[01;31m[K[[m[K0].post_place_retreat.desired_distance = 0.25;
+[11.126s]       |                   [01;31m[K^[m[K
+[11.126s] [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup/src/pick_and_place.cpp:95:31:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[11.127s]    95 |     openGripper(place_location[01;31m[K[[m[K0].post_place_posture);
+[11.127s]       |                               [01;31m[K^[m[K
+[11.127s] [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup/src/pick_and_place.cpp:97:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’ has no member named ‘[01m[Kplace[m[K’
+[11.127s]    97 |     group.[01;31m[Kplace[m[K("object", place_location);
+[11.127s]       |           [01;31m[K^~~~~[m[K
+[14.183s] gmake[2]: *** [CMakeFiles/pick_and_place.dir/build.make:76: CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o] Error 1
+[14.183s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/pick_and_place.dir/all] Error 2
+[14.183s] gmake: *** [Makefile:146: all] Error 2
+[14.186s] Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup -- -j4 -l4

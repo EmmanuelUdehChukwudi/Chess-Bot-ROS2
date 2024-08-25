@@ -1,0 +1,30 @@
+[0.137s] Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_description -- -j4 -l4
+[0.929s] Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_description -- -j4 -l4
+[0.969s] Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/Chess-Bot-ROS2/build/chessbot_description
+[1.065s] -- Install configuration: ""
+[1.200s] -- Execute custom install script
+[1.312s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/launch/display.launch.xml
+[1.330s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/launch/gazebo_sim.launch.py
+[1.357s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/urdf/arm_core.urdf.xacro
+[1.366s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/urdf/arm_gazebo.urdf.xacro
+[1.372s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/urdf/arm_inertia.urdf.xacro
+[1.372s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/urdf/arm_ros2_control.urdf.xacro
+[1.378s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/urdf/main.urdf.xacro
+[1.394s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/meshes/left_finger.STL
+[1.411s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/meshes/right_finger.STL
+[1.413s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/ament_index/resource_index/package_run_dependencies/chessbot_description
+[1.451s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/ament_index/resource_index/parent_prefix_path/chessbot_description
+[1.470s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/environment/ament_prefix_path.sh
+[1.471s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/environment/ament_prefix_path.dsv
+[1.488s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/environment/path.sh
+[1.491s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/environment/path.dsv
+[1.528s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/local_setup.bash
+[1.545s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/local_setup.sh
+[1.562s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/local_setup.zsh
+[1.563s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/local_setup.dsv
+[1.564s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/package.dsv
+[1.583s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/ament_index/resource_index/packages/chessbot_description
+[1.604s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/cmake/chessbot_descriptionConfig.cmake
+[1.614s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/cmake/chessbot_descriptionConfig-version.cmake
+[1.635s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/package.xml
+[2.361s] Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/Chess-Bot-ROS2/build/chessbot_description

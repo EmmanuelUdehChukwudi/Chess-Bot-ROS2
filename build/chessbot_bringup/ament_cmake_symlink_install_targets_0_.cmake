@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup/goto_goal" "/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup/add_collision" "/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup/pick_and_place" "TARGETS" "goto_goal" "add_collision" "pick_and_place" "DESTINATION" "lib/chessbot_bringup")

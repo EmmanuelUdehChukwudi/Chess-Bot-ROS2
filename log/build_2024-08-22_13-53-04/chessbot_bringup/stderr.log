@@ -1,0 +1,18 @@
+[01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup/src/goto_goal.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup/src/goto_goal.cpp:25:38:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Ktarget_pose1[m[K’
+   25 |   target_pose1.orientation.x = -0.632
+      |                                      [01;31m[K^[m[K
+      |                                      [32m[K;[m[K
+   26 |   [32m[Ktarget_pose1[m[K.orientation.y = -0.183;
+      |   [32m[K~~~~~~~~~~~~[m[K                        
+[01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup/src/goto_goal.cpp:37:63:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   37 |  if (success == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K) {
+      |                                                              [01;35m[K^~~~~~~[m[K
+
+In file included from [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup/src/goto_goal.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/goto_goal.dir/build.make:76: CMakeFiles/goto_goal.dir/src/goto_goal.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/goto_goal.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

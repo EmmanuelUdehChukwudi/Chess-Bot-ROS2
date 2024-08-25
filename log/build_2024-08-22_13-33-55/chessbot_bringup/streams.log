@@ -1,0 +1,65 @@
+[0.038s] Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup -- -j4 -l4
+[0.087s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.473s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.488s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.543s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.550s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.563s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.591s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.630s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.777s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.781s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.849s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.242s] -- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[1.264s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[2.604s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.615s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.633s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.697s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.755s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.977s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.668s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[4.400s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[4.713s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[5.251s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[5.266s] -- Found moveit_ros_perception: 2.5.5 (/opt/ros/humble/share/moveit_ros_perception/cmake)
+[5.270s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[5.670s] -- Checking for module 'glut'
+[5.673s] --   No package 'glut' found
+[5.883s] -- Configuring done
+[6.356s] -- Generating done
+[6.369s] -- Build files have been written to: /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup
+[6.425s] [ 50%] [32mBuilding CXX object CMakeFiles/goto_goal.dir/src/goto_goal.cpp.o[0m
+[18.993s] [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup/src/goto_goal.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[18.993s] [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup/src/goto_goal.cpp:37:63:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.993s]    37 |  if (success == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K) {
+[18.994s]       |                                                              [01;35m[K^~~~~~~[m[K
+[18.994s] 
+[18.994s] In file included from [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup/src/goto_goal.cpp:2[m[K:
+[18.994s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.994s]    71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+[18.995s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[23.751s] [100%] [32m[1mLinking CXX executable goto_goal[0m
+[27.174s] [100%] Built target goto_goal
+[27.187s] Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup -- -j4 -l4
+[27.217s] Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup
+[27.225s] -- Install configuration: ""
+[27.226s] -- Execute custom install script
+[27.226s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/launch/simulation.launch.py
+[27.227s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/lib/chessbot_bringup/goto_goal
+[27.236s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/ament_index/resource_index/package_run_dependencies/chessbot_bringup
+[27.237s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/ament_index/resource_index/parent_prefix_path/chessbot_bringup
+[27.237s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/environment/ament_prefix_path.sh
+[27.237s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/environment/ament_prefix_path.dsv
+[27.238s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/environment/path.sh
+[27.238s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/environment/path.dsv
+[27.238s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/local_setup.bash
+[27.238s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/local_setup.sh
+[27.239s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/local_setup.zsh
+[27.239s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/local_setup.dsv
+[27.239s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/package.dsv
+[27.249s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/ament_index/resource_index/packages/chessbot_bringup
+[27.250s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/cmake/chessbot_bringupConfig.cmake
+[27.250s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/cmake/chessbot_bringupConfig-version.cmake
+[27.250s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/package.xml
+[27.253s] Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup

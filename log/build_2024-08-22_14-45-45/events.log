@@ -1,0 +1,385 @@
+[0.000000] (-) TimerEvent: {}
+[0.001089] (chessbot_bringup) JobQueued: {'identifier': 'chessbot_bringup', 'dependencies': OrderedDict()}
+[0.001169] (chessbot_controller) JobQueued: {'identifier': 'chessbot_controller', 'dependencies': OrderedDict()}
+[0.001200] (chessbot_description) JobQueued: {'identifier': 'chessbot_description', 'dependencies': OrderedDict()}
+[0.001225] (chessbot_moveit) JobQueued: {'identifier': 'chessbot_moveit', 'dependencies': OrderedDict()}
+[0.001249] (chessbot_bringup) JobStarted: {'identifier': 'chessbot_bringup'}
+[0.007242] (chessbot_controller) JobStarted: {'identifier': 'chessbot_controller'}
+[0.011363] (chessbot_description) JobStarted: {'identifier': 'chessbot_description'}
+[0.018465] (chessbot_moveit) JobStarted: {'identifier': 'chessbot_moveit'}
+[0.025486] (chessbot_bringup) JobProgress: {'identifier': 'chessbot_bringup', 'progress': 'cmake'}
+[0.026339] (chessbot_bringup) JobProgress: {'identifier': 'chessbot_bringup', 'progress': 'build'}
+[0.027686] (chessbot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup', '--', '-j4', '-l4'], 'cwd': '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'emmanuel'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/emmanuel'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '7070'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'emmanuel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'emmanuel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/emmanuel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Emmanuel-prime:@/tmp/.ICE-unix/2679,unix/Emmanuel-prime:/tmp/.ICE-unix/2679'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b72fe7db_066f_451b_8954_a22c9c065709'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TK3PS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.034148] (chessbot_controller) JobProgress: {'identifier': 'chessbot_controller', 'progress': 'cmake'}
+[0.034687] (chessbot_controller) JobProgress: {'identifier': 'chessbot_controller', 'progress': 'build'}
+[0.034950] (chessbot_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller', '--', '-j4', '-l4'], 'cwd': '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'emmanuel'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/emmanuel'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '7070'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'emmanuel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'emmanuel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/emmanuel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Emmanuel-prime:@/tmp/.ICE-unix/2679,unix/Emmanuel-prime:/tmp/.ICE-unix/2679'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b72fe7db_066f_451b_8954_a22c9c065709'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TK3PS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.037791] (chessbot_description) JobProgress: {'identifier': 'chessbot_description', 'progress': 'cmake'}
+[0.038995] (chessbot_description) JobProgress: {'identifier': 'chessbot_description', 'progress': 'build'}
+[0.042336] (chessbot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_description', '--', '-j4', '-l4'], 'cwd': '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'emmanuel'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/emmanuel'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '7070'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'emmanuel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'emmanuel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/emmanuel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Emmanuel-prime:@/tmp/.ICE-unix/2679,unix/Emmanuel-prime:/tmp/.ICE-unix/2679'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b72fe7db_066f_451b_8954_a22c9c065709'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TK3PS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.051303] (chessbot_moveit) JobProgress: {'identifier': 'chessbot_moveit', 'progress': 'cmake'}
+[0.051427] (chessbot_moveit) JobProgress: {'identifier': 'chessbot_moveit', 'progress': 'build'}
+[0.051494] (chessbot_moveit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_moveit', '--', '-j4', '-l4'], 'cwd': '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'emmanuel'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/emmanuel'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '7070'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'emmanuel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'emmanuel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/emmanuel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Emmanuel-prime:@/tmp/.ICE-unix/2679,unix/Emmanuel-prime:/tmp/.ICE-unix/2679'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b72fe7db_066f_451b_8954_a22c9c065709'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TK3PS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.086306] (chessbot_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.100658] (-) TimerEvent: {}
+[0.114461] (chessbot_description) CommandEnded: {'returncode': 0}
+[0.139493] (chessbot_moveit) CommandEnded: {'returncode': 0}
+[0.173532] (chessbot_controller) StdoutLine: {'line': b'[ 50%] Built target slider_control\n'}
+[0.182715] (chessbot_controller) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_symlink_chessbot_controller\n'}
+[0.185087] (chessbot_controller) StdoutLine: {'line': b'[100%] Built target chessbot_controller\n'}
+[0.186918] (chessbot_description) JobProgress: {'identifier': 'chessbot_description', 'progress': 'install'}
+[0.200765] (-) TimerEvent: {}
+[0.202321] (chessbot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_description'], 'cwd': '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'emmanuel'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/emmanuel'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '7070'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'emmanuel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'emmanuel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/emmanuel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Emmanuel-prime:@/tmp/.ICE-unix/2679,unix/Emmanuel-prime:/tmp/.ICE-unix/2679'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b72fe7db_066f_451b_8954_a22c9c065709'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TK3PS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.209647] (chessbot_moveit) JobProgress: {'identifier': 'chessbot_moveit', 'progress': 'install'}
+[0.209982] (chessbot_moveit) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_moveit'], 'cwd': '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'emmanuel'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/emmanuel'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '7070'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'emmanuel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'emmanuel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/emmanuel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Emmanuel-prime:@/tmp/.ICE-unix/2679,unix/Emmanuel-prime:/tmp/.ICE-unix/2679'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b72fe7db_066f_451b_8954_a22c9c065709'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TK3PS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.216041] (chessbot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.217949] (chessbot_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.219624] (chessbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/launch/display.launch.xml\n'}
+[0.221364] (chessbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/launch/gazebo_sim.launch.py\n'}
+[0.221625] (chessbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/urdf/arm_core.urdf.xacro\n'}
+[0.221772] (chessbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/urdf/arm_gazebo.urdf.xacro\n'}
+[0.221905] (chessbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/urdf/arm_inertia.urdf.xacro\n'}
+[0.222033] (chessbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/urdf/arm_ros2_control.urdf.xacro\n'}
+[0.222187] (chessbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/urdf/main.urdf.xacro\n'}
+[0.222331] (chessbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/meshes/left_finger.STL\n'}
+[0.228761] (chessbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/meshes/right_finger.STL\n'}
+[0.229229] (chessbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/ament_index/resource_index/package_run_dependencies/chessbot_description\n'}
+[0.230379] (chessbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/ament_index/resource_index/parent_prefix_path/chessbot_description\n'}
+[0.230643] (chessbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/environment/ament_prefix_path.sh\n'}
+[0.230800] (chessbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/environment/ament_prefix_path.dsv\n'}
+[0.230951] (chessbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/environment/path.sh\n'}
+[0.231080] (chessbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/environment/path.dsv\n'}
+[0.231208] (chessbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/local_setup.bash\n'}
+[0.231334] (chessbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/local_setup.sh\n'}
+[0.231501] (chessbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/local_setup.zsh\n'}
+[0.231635] (chessbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/local_setup.dsv\n'}
+[0.231758] (chessbot_description) StdoutLine: {'line': b'-- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/package.dsv\n'}
+[0.239215] (chessbot_moveit) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.240918] (chessbot_moveit) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.241665] (chessbot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/launch/moveit.launch.py\n'}
+[0.241822] (chessbot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/config/arm.srdf\n'}
+[0.241962] (chessbot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/config/initial_positions.yaml\n'}
+[0.245896] (chessbot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/config/joint_limits.yaml\n'}
+[0.247635] (chessbot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/config/kinematics.yaml\n'}
+[0.247830] (chessbot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/config/moveit.rviz\n'}
+[0.248001] (chessbot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/config/moveit_controllers.yaml\n'}
+[0.248146] (chessbot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/config/pilz_cartesian_limits.yaml\n'}
+[0.248287] (chessbot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/ament_index/resource_index/package_run_dependencies/chessbot_moveit\n'}
+[0.252287] (chessbot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/ament_index/resource_index/parent_prefix_path/chessbot_moveit\n'}
+[0.253531] (chessbot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/environment/ament_prefix_path.sh\n'}
+[0.254399] (chessbot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/environment/ament_prefix_path.dsv\n'}
+[0.254577] (chessbot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/environment/path.sh\n'}
+[0.254734] (chessbot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/environment/path.dsv\n'}
+[0.254879] (chessbot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/local_setup.bash\n'}
+[0.255016] (chessbot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/local_setup.sh\n'}
+[0.255158] (chessbot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/local_setup.zsh\n'}
+[0.255303] (chessbot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/local_setup.dsv\n'}
+[0.255460] (chessbot_moveit) StdoutLine: {'line': b'-- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/package.dsv\n'}
+[0.265120] (chessbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/ament_index/resource_index/packages/chessbot_description\n'}
+[0.265396] (chessbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/cmake/chessbot_descriptionConfig.cmake\n'}
+[0.267200] (chessbot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/ament_index/resource_index/packages/chessbot_moveit\n'}
+[0.267464] (chessbot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/cmake/chessbot_moveitConfig.cmake\n'}
+[0.267629] (chessbot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/cmake/chessbot_moveitConfig-version.cmake\n'}
+[0.267783] (chessbot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/package.xml\n'}
+[0.267998] (chessbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/cmake/chessbot_descriptionConfig-version.cmake\n'}
+[0.272325] (chessbot_moveit) CommandEnded: {'returncode': 0}
+[0.272982] (chessbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/package.xml\n'}
+[0.295399] (chessbot_description) CommandEnded: {'returncode': 0}
+[0.303615] (-) TimerEvent: {}
+[0.350336] (chessbot_moveit) JobEnded: {'identifier': 'chessbot_moveit', 'rc': 0}
+[0.369665] (chessbot_bringup) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.369913] (chessbot_description) JobEnded: {'identifier': 'chessbot_description', 'rc': 0}
+[0.378767] (chessbot_bringup) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.403723] (-) TimerEvent: {}
+[0.420027] (chessbot_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.423818] (chessbot_bringup) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.438022] (chessbot_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.464315] (chessbot_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.498291] (chessbot_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.503820] (-) TimerEvent: {}
+[0.578441] (chessbot_bringup) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.579833] (chessbot_bringup) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.603932] (-) TimerEvent: {}
+[0.624128] (chessbot_bringup) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.665177] (chessbot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[0.666250] (chessbot_controller) StdoutLine: {'line': b'writing chessbot_controller.egg-info/PKG-INFO\n'}
+[0.666583] (chessbot_controller) StdoutLine: {'line': b'writing dependency_links to chessbot_controller.egg-info/dependency_links.txt\n'}
+[0.666911] (chessbot_controller) StdoutLine: {'line': b'writing top-level names to chessbot_controller.egg-info/top_level.txt\n'}
+[0.669823] (chessbot_controller) StdoutLine: {'line': b"reading manifest file 'chessbot_controller.egg-info/SOURCES.txt'\n"}
+[0.670870] (chessbot_controller) StdoutLine: {'line': b"writing manifest file 'chessbot_controller.egg-info/SOURCES.txt'\n"}
+[0.704062] (-) TimerEvent: {}
+[0.711206] (chessbot_controller) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_chessbot_controller_egg\n'}
+[0.724772] (chessbot_controller) CommandEnded: {'returncode': 0}
+[0.762653] (chessbot_controller) JobProgress: {'identifier': 'chessbot_controller', 'progress': 'install'}
+[0.763204] (chessbot_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller'], 'cwd': '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'emmanuel'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/emmanuel'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '7070'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'emmanuel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'emmanuel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/emmanuel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Emmanuel-prime:@/tmp/.ICE-unix/2679,unix/Emmanuel-prime:/tmp/.ICE-unix/2679'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b72fe7db_066f_451b_8954_a22c9c065709'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TK3PS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.773430] (chessbot_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.774842] (chessbot_controller) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.775072] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/environment/pythonpath.sh\n'}
+[0.775299] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/environment/pythonpath.dsv\n'}
+[0.776016] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/local/lib/python3.10/dist-packages/chessbot_controller-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.776206] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/local/lib/python3.10/dist-packages/chessbot_controller-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.776437] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/local/lib/python3.10/dist-packages/chessbot_controller-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.776769] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/local/lib/python3.10/dist-packages/chessbot_controller-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.777835] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/local/lib/python3.10/dist-packages/chessbot_controller/__init__.py\n'}
+[0.778066] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/local/lib/python3.10/dist-packages/chessbot_controller/slider.py\n'}
+[0.778278] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/lib/chessbot_controller/slider_control\n'}
+[0.778499] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/lib/chessbot_controller/slider.py\n'}
+[0.778812] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller//arm_controller.xml\n'}
+[0.779245] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/lib/libchessbot_controller.so\n'}
+[0.779833] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/include/chessbot_controller/arm_interface.hpp\n'}
+[0.780063] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/include/chessbot_controller/visibility_control.h\n'}
+[0.780594] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/config/arm_controllers.yaml\n'}
+[0.780993] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/launch/controller.launch.py\n'}
+[0.781329] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/environment/library_path.sh\n'}
+[0.781652] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/environment/library_path.dsv\n'}
+[0.781980] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/ament_index/resource_index/package_run_dependencies/chessbot_controller\n'}
+[0.782431] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/ament_index/resource_index/parent_prefix_path/chessbot_controller\n'}
+[0.782676] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/environment/ament_prefix_path.sh\n'}
+[0.782982] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/environment/ament_prefix_path.dsv\n'}
+[0.783351] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/environment/path.sh\n'}
+[0.783610] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/environment/path.dsv\n'}
+[0.783903] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/local_setup.bash\n'}
+[0.784610] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/local_setup.sh\n'}
+[0.784807] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/local_setup.zsh\n'}
+[0.786756] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/local_setup.dsv\n'}
+[0.787012] (chessbot_controller) StdoutLine: {'line': b'-- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/package.dsv\n'}
+[0.799834] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/ament_index/resource_index/packages/chessbot_controller\n'}
+[0.800157] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/chessbot_controller\n'}
+[0.800430] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.800745] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.801349] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.801775] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/cmake/chessbot_controllerConfig.cmake\n'}
+[0.802007] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/cmake/chessbot_controllerConfig-version.cmake\n'}
+[0.802164] (chessbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/package.xml\n'}
+[0.804215] (-) TimerEvent: {}
+[0.844985] (chessbot_controller) StdoutLine: {'line': b"Listing '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/local/lib/python3.10/dist-packages/chessbot_controller'...\n"}
+[0.855570] (chessbot_controller) CommandEnded: {'returncode': 0}
+[0.883079] (chessbot_bringup) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[0.900855] (chessbot_bringup) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[0.904319] (-) TimerEvent: {}
+[0.921666] (chessbot_controller) JobEnded: {'identifier': 'chessbot_controller', 'rc': 0}
+[1.004438] (-) TimerEvent: {}
+[1.104860] (-) TimerEvent: {}
+[1.205260] (-) TimerEvent: {}
+[1.305700] (-) TimerEvent: {}
+[1.406101] (-) TimerEvent: {}
+[1.506560] (-) TimerEvent: {}
+[1.607184] (-) TimerEvent: {}
+[1.707575] (-) TimerEvent: {}
+[1.807872] (-) TimerEvent: {}
+[1.910714] (-) TimerEvent: {}
+[2.011042] (-) TimerEvent: {}
+[2.111396] (-) TimerEvent: {}
+[2.113111] (chessbot_bringup) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[2.125354] (chessbot_bringup) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[2.148625] (chessbot_bringup) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[2.211499] (-) TimerEvent: {}
+[2.212199] (chessbot_bringup) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[2.261842] (chessbot_bringup) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[2.311612] (-) TimerEvent: {}
+[2.411972] (-) TimerEvent: {}
+[2.469600] (chessbot_bringup) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.512274] (-) TimerEvent: {}
+[2.613032] (-) TimerEvent: {}
+[2.713627] (-) TimerEvent: {}
+[2.814500] (-) TimerEvent: {}
+[2.915436] (-) TimerEvent: {}
+[3.016573] (-) TimerEvent: {}
+[3.117135] (-) TimerEvent: {}
+[3.218249] (-) TimerEvent: {}
+[3.318797] (-) TimerEvent: {}
+[3.421448] (-) TimerEvent: {}
+[3.487488] (chessbot_bringup) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[3.521580] (-) TimerEvent: {}
+[3.624441] (-) TimerEvent: {}
+[3.725694] (-) TimerEvent: {}
+[3.827044] (-) TimerEvent: {}
+[3.928494] (-) TimerEvent: {}
+[4.030413] (-) TimerEvent: {}
+[4.130888] (-) TimerEvent: {}
+[4.231252] (-) TimerEvent: {}
+[4.331649] (-) TimerEvent: {}
+[4.431988] (-) TimerEvent: {}
+[4.480312] (chessbot_bringup) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[4.532230] (-) TimerEvent: {}
+[4.632684] (-) TimerEvent: {}
+[4.733061] (-) TimerEvent: {}
+[4.834061] (-) TimerEvent: {}
+[4.893560] (chessbot_bringup) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[4.934250] (-) TimerEvent: {}
+[5.034858] (-) TimerEvent: {}
+[5.135256] (-) TimerEvent: {}
+[5.235638] (-) TimerEvent: {}
+[5.336025] (-) TimerEvent: {}
+[5.436439] (-) TimerEvent: {}
+[5.536827] (-) TimerEvent: {}
+[5.605406] (chessbot_bringup) StdoutLine: {'line': b'-- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)\n'}
+[5.623321] (chessbot_bringup) StdoutLine: {'line': b'-- Found moveit_ros_perception: 2.5.5 (/opt/ros/humble/share/moveit_ros_perception/cmake)\n'}
+[5.628399] (chessbot_bringup) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread \n'}
+[5.636937] (-) TimerEvent: {}
+[5.738179] (-) TimerEvent: {}
+[5.838552] (-) TimerEvent: {}
+[5.938888] (-) TimerEvent: {}
+[6.039266] (-) TimerEvent: {}
+[6.139697] (-) TimerEvent: {}
+[6.240071] (-) TimerEvent: {}
+[6.257962] (chessbot_bringup) StdoutLine: {'line': b"-- Checking for module 'glut'\n"}
+[6.261090] (chessbot_bringup) StdoutLine: {'line': b"--   No package 'glut' found\n"}
+[6.340179] (-) TimerEvent: {}
+[6.388434] (chessbot_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.440304] (-) TimerEvent: {}
+[6.540705] (-) TimerEvent: {}
+[6.541756] (chessbot_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[6.544882] (chessbot_bringup) StdoutLine: {'line': b'-- Build files have been written to: /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup\n'}
+[6.591102] (chessbot_bringup) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target goto_goal\x1b[0m\n'}
+[6.607387] (chessbot_bringup) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/add_collision.dir/src/add_collision_object.cpp.o\x1b[0m\n'}
+[6.640639] (chessbot_bringup) StdoutLine: {'line': b'[ 75%] Built target goto_goal\n'}
+[6.640912] (-) TimerEvent: {}
+[6.741387] (-) TimerEvent: {}
+[6.841894] (-) TimerEvent: {}
+[6.942403] (-) TimerEvent: {}
+[7.042712] (-) TimerEvent: {}
+[7.143106] (-) TimerEvent: {}
+[7.243421] (-) TimerEvent: {}
+[7.344834] (-) TimerEvent: {}
+[7.445527] (-) TimerEvent: {}
+[7.545931] (-) TimerEvent: {}
+[7.646425] (-) TimerEvent: {}
+[7.747230] (-) TimerEvent: {}
+[7.848567] (-) TimerEvent: {}
+[7.949427] (-) TimerEvent: {}
+[8.049853] (-) TimerEvent: {}
+[8.150370] (-) TimerEvent: {}
+[8.250989] (-) TimerEvent: {}
+[8.351417] (-) TimerEvent: {}
+[8.451809] (-) TimerEvent: {}
+[8.552365] (-) TimerEvent: {}
+[8.652849] (-) TimerEvent: {}
+[8.754253] (-) TimerEvent: {}
+[8.855003] (-) TimerEvent: {}
+[8.956745] (-) TimerEvent: {}
+[9.057180] (-) TimerEvent: {}
+[9.157894] (-) TimerEvent: {}
+[9.258455] (-) TimerEvent: {}
+[9.358914] (-) TimerEvent: {}
+[9.459326] (-) TimerEvent: {}
+[9.559722] (-) TimerEvent: {}
+[9.660125] (-) TimerEvent: {}
+[9.760559] (-) TimerEvent: {}
+[9.860895] (-) TimerEvent: {}
+[9.961272] (-) TimerEvent: {}
+[10.061666] (-) TimerEvent: {}
+[10.162036] (-) TimerEvent: {}
+[10.262408] (-) TimerEvent: {}
+[10.362728] (-) TimerEvent: {}
+[10.463061] (-) TimerEvent: {}
+[10.563424] (-) TimerEvent: {}
+[10.663819] (-) TimerEvent: {}
+[10.764229] (-) TimerEvent: {}
+[10.864654] (-) TimerEvent: {}
+[10.965043] (-) TimerEvent: {}
+[11.065428] (-) TimerEvent: {}
+[11.165787] (-) TimerEvent: {}
+[11.266165] (-) TimerEvent: {}
+[11.366600] (-) TimerEvent: {}
+[11.467016] (-) TimerEvent: {}
+[11.567438] (-) TimerEvent: {}
+[11.667885] (-) TimerEvent: {}
+[11.768587] (-) TimerEvent: {}
+[11.869225] (-) TimerEvent: {}
+[11.969561] (-) TimerEvent: {}
+[12.069913] (-) TimerEvent: {}
+[12.170266] (-) TimerEvent: {}
+[12.270623] (-) TimerEvent: {}
+[12.370974] (-) TimerEvent: {}
+[12.471426] (-) TimerEvent: {}
+[12.571855] (-) TimerEvent: {}
+[12.672301] (-) TimerEvent: {}
+[12.772700] (-) TimerEvent: {}
+[12.874436] (-) TimerEvent: {}
+[12.974989] (-) TimerEvent: {}
+[13.075538] (-) TimerEvent: {}
+[13.176048] (-) TimerEvent: {}
+[13.276450] (-) TimerEvent: {}
+[13.377006] (-) TimerEvent: {}
+[13.477418] (-) TimerEvent: {}
+[13.577805] (-) TimerEvent: {}
+[13.678228] (-) TimerEvent: {}
+[13.778668] (-) TimerEvent: {}
+[13.879072] (-) TimerEvent: {}
+[13.979526] (-) TimerEvent: {}
+[14.079978] (-) TimerEvent: {}
+[14.180426] (-) TimerEvent: {}
+[14.280781] (-) TimerEvent: {}
+[14.381090] (-) TimerEvent: {}
+[14.481394] (-) TimerEvent: {}
+[14.581745] (-) TimerEvent: {}
+[14.682034] (-) TimerEvent: {}
+[14.782339] (-) TimerEvent: {}
+[14.882664] (-) TimerEvent: {}
+[14.983001] (-) TimerEvent: {}
+[15.083359] (-) TimerEvent: {}
+[15.183699] (-) TimerEvent: {}
+[15.284041] (-) TimerEvent: {}
+[15.384401] (-) TimerEvent: {}
+[15.484756] (-) TimerEvent: {}
+[15.585114] (-) TimerEvent: {}
+[15.685427] (-) TimerEvent: {}
+[15.785806] (-) TimerEvent: {}
+[15.886187] (-) TimerEvent: {}
+[15.986527] (-) TimerEvent: {}
+[16.086872] (-) TimerEvent: {}
+[16.187231] (-) TimerEvent: {}
+[16.287590] (-) TimerEvent: {}
+[16.388027] (-) TimerEvent: {}
+[16.488710] (-) TimerEvent: {}
+[16.589074] (-) TimerEvent: {}
+[16.689425] (-) TimerEvent: {}
+[16.789798] (-) TimerEvent: {}
+[16.890263] (-) TimerEvent: {}
+[16.990999] (-) TimerEvent: {}
+[17.091450] (-) TimerEvent: {}
+[17.191911] (-) TimerEvent: {}
+[17.292252] (-) TimerEvent: {}
+[17.392640] (-) TimerEvent: {}
+[17.493797] (-) TimerEvent: {}
+[17.598103] (-) TimerEvent: {}
+[17.698501] (-) TimerEvent: {}
+[17.798851] (-) TimerEvent: {}
+[17.899169] (-) TimerEvent: {}
+[17.999432] (-) TimerEvent: {}
+[18.099725] (-) TimerEvent: {}
+[18.200031] (-) TimerEvent: {}
+[18.285820] (chessbot_bringup) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable add_collision\x1b[0m\n'}
+[18.300151] (-) TimerEvent: {}
+[18.400625] (-) TimerEvent: {}
+[18.501002] (-) TimerEvent: {}
+[18.601325] (-) TimerEvent: {}
+[18.701642] (-) TimerEvent: {}
+[18.717178] (chessbot_bringup) StdoutLine: {'line': b'[100%] Built target add_collision\n'}
+[18.731424] (chessbot_bringup) CommandEnded: {'returncode': 0}
+[18.764083] (chessbot_bringup) JobProgress: {'identifier': 'chessbot_bringup', 'progress': 'install'}
+[18.765086] (chessbot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup'], 'cwd': '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'emmanuel'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/emmanuel'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '7070'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'emmanuel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'emmanuel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/emmanuel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Emmanuel-prime:@/tmp/.ICE-unix/2679,unix/Emmanuel-prime:/tmp/.ICE-unix/2679'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b72fe7db_066f_451b_8954_a22c9c065709'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TK3PS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[18.774257] (chessbot_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.774955] (chessbot_bringup) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[18.775673] (chessbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/launch/simulation.launch.py\n'}
+[18.776012] (chessbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/lib/chessbot_bringup/goto_goal\n'}
+[18.776229] (chessbot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/lib/chessbot_bringup/add_collision\n'}
+[18.785702] (chessbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/ament_index/resource_index/package_run_dependencies/chessbot_bringup\n'}
+[18.786047] (chessbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/ament_index/resource_index/parent_prefix_path/chessbot_bringup\n'}
+[18.786309] (chessbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/environment/ament_prefix_path.sh\n'}
+[18.786534] (chessbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/environment/ament_prefix_path.dsv\n'}
+[18.786826] (chessbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/environment/path.sh\n'}
+[18.787053] (chessbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/environment/path.dsv\n'}
+[18.787259] (chessbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/local_setup.bash\n'}
+[18.787488] (chessbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/local_setup.sh\n'}
+[18.787699] (chessbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/local_setup.zsh\n'}
+[18.787908] (chessbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/local_setup.dsv\n'}
+[18.788081] (chessbot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/package.dsv\n'}
+[18.799283] (chessbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/ament_index/resource_index/packages/chessbot_bringup\n'}
+[18.799598] (chessbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/cmake/chessbot_bringupConfig.cmake\n'}
+[18.799802] (chessbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/cmake/chessbot_bringupConfig-version.cmake\n'}
+[18.800056] (chessbot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/package.xml\n'}
+[18.801710] (-) TimerEvent: {}
+[18.802766] (chessbot_bringup) CommandEnded: {'returncode': 0}
+[18.851053] (chessbot_bringup) JobEnded: {'identifier': 'chessbot_bringup', 'rc': 0}
+[18.852085] (-) EventReactorShutdown: {}

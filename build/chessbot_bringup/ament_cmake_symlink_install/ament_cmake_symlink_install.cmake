@@ -313,6 +313,9 @@ message(STATUS "Execute custom install script")
 # install(DIRECTORY "launch" "DESTINATION" "share/chessbot_bringup")
 ament_cmake_symlink_install_directory("/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup" DIRECTORY "launch" "DESTINATION" "share/chessbot_bringup")
 
+# install("TARGETS" "goto_goal" "add_collision" "pick_and_place" "DESTINATION" "lib/chessbot_bringup")
+include("/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
 # install(FILES "/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/chessbot_bringup" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup" FILES "/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/chessbot_bringup" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 

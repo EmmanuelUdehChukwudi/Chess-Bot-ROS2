@@ -63,7 +63,9 @@ CMAKE_BINARY_DIR = /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all:
+all: CMakeFiles/goto_goal.dir/all
+all: CMakeFiles/add_collision.dir/all
+all: CMakeFiles/pick_and_place.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,6 +75,9 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/chessbot_bringup_uninstall.dir/clean
+clean: CMakeFiles/goto_goal.dir/clean
+clean: CMakeFiles/add_collision.dir/clean
+clean: CMakeFiles/pick_and_place.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -126,6 +131,84 @@ chessbot_bringup_uninstall: CMakeFiles/chessbot_bringup_uninstall.dir/rule
 CMakeFiles/chessbot_bringup_uninstall.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chessbot_bringup_uninstall.dir/build.make CMakeFiles/chessbot_bringup_uninstall.dir/clean
 .PHONY : CMakeFiles/chessbot_bringup_uninstall.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/goto_goal.dir
+
+# All Build rule for target.
+CMakeFiles/goto_goal.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/goto_goal.dir/build.make CMakeFiles/goto_goal.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/goto_goal.dir/build.make CMakeFiles/goto_goal.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup/CMakeFiles --progress-num=3,4 "Built target goto_goal"
+.PHONY : CMakeFiles/goto_goal.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/goto_goal.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/goto_goal.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup/CMakeFiles 0
+.PHONY : CMakeFiles/goto_goal.dir/rule
+
+# Convenience name for target.
+goto_goal: CMakeFiles/goto_goal.dir/rule
+.PHONY : goto_goal
+
+# clean rule for target.
+CMakeFiles/goto_goal.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/goto_goal.dir/build.make CMakeFiles/goto_goal.dir/clean
+.PHONY : CMakeFiles/goto_goal.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/add_collision.dir
+
+# All Build rule for target.
+CMakeFiles/add_collision.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_collision.dir/build.make CMakeFiles/add_collision.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_collision.dir/build.make CMakeFiles/add_collision.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup/CMakeFiles --progress-num=1,2 "Built target add_collision"
+.PHONY : CMakeFiles/add_collision.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/add_collision.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/add_collision.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup/CMakeFiles 0
+.PHONY : CMakeFiles/add_collision.dir/rule
+
+# Convenience name for target.
+add_collision: CMakeFiles/add_collision.dir/rule
+.PHONY : add_collision
+
+# clean rule for target.
+CMakeFiles/add_collision.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_collision.dir/build.make CMakeFiles/add_collision.dir/clean
+.PHONY : CMakeFiles/add_collision.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pick_and_place.dir
+
+# All Build rule for target.
+CMakeFiles/pick_and_place.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_and_place.dir/build.make CMakeFiles/pick_and_place.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_and_place.dir/build.make CMakeFiles/pick_and_place.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup/CMakeFiles --progress-num=5,6 "Built target pick_and_place"
+.PHONY : CMakeFiles/pick_and_place.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pick_and_place.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pick_and_place.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup/CMakeFiles 0
+.PHONY : CMakeFiles/pick_and_place.dir/rule
+
+# Convenience name for target.
+pick_and_place: CMakeFiles/pick_and_place.dir/rule
+.PHONY : pick_and_place
+
+# clean rule for target.
+CMakeFiles/pick_and_place.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_and_place.dir/build.make CMakeFiles/pick_and_place.dir/clean
+.PHONY : CMakeFiles/pick_and_place.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -1,0 +1,67 @@
+[0.090s] Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup -- -j4 -l4
+[1.042s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.399s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.691s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[2.056s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.115s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.155s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.302s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.427s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.780s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.810s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[2.969s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.117s] -- Looking for pthread.h
+[4.077s] -- Looking for pthread.h - found
+[4.077s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.206s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.207s] -- Found Threads: TRUE  
+[4.642s] -- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[5.002s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[6.476s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[6.565s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[6.795s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[6.965s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[7.428s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[7.774s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[7.774s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[8.819s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[9.555s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[10.061s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[10.746s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[10.786s] -- Found moveit_ros_perception: 2.5.5 (/opt/ros/humble/share/moveit_ros_perception/cmake)
+[10.791s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[11.270s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindOpenGL.cmake:315 (message):
+[11.270s]   Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+[11.270s]   available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+[11.271s]   cmake_policy command to set the policy and suppress this warning.
+[11.271s] 
+[11.271s]   FindOpenGL found both a legacy GL library:
+[11.271s] 
+[11.271s]     OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so
+[11.271s] 
+[11.271s]   and GLVND libraries for OpenGL and GLX:
+[11.271s] 
+[11.272s]     OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+[11.272s]     OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so
+[11.272s] 
+[11.272s]   OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+[11.272s]   compatibility with CMake 3.10 and below the legacy GL library will be used.
+[11.272s] Call Stack (most recent call first):
+[11.272s]   CMakeLists.txt:15 (find_package)
+[11.272s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[11.272s] [0m
+[11.273s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[11.289s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[11.290s] -- Checking for module 'glut'
+[11.308s] --   No package 'glut' found
+[11.311s] -- Found GLUT: /usr/lib/x86_64-linux-gnu/libglut.so  
+[11.312s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[11.313s]   ament_target_dependencies() the first argument must be a valid target name
+[11.313s] Call Stack (most recent call first):
+[11.313s]   CMakeLists.txt:25 (ament_target_dependencies)
+[11.313s] 
+[11.313s] [0m
+[11.313s] -- Configuring incomplete, errors occurred!
+[11.313s] See also "/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup/CMakeFiles/CMakeOutput.log".
+[11.327s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[11.329s] Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup -- -j4 -l4

@@ -1,0 +1,9 @@
+[01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup/src/goto_goal.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup/src/goto_goal.cpp:54:65:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   54 |  if (success == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K) {
+      |                                                              [01;35m[K^~~~~~~[m[K
+
+In file included from [01m[K/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup/src/goto_goal.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
