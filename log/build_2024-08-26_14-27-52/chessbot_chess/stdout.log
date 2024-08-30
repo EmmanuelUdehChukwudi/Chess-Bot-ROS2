@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating chessbot_chess.egg-info
+writing chessbot_chess.egg-info/PKG-INFO
+writing dependency_links to chessbot_chess.egg-info/dependency_links.txt
+writing entry points to chessbot_chess.egg-info/entry_points.txt
+writing requirements to chessbot_chess.egg-info/requires.txt
+writing top-level names to chessbot_chess.egg-info/top_level.txt
+writing manifest file 'chessbot_chess.egg-info/SOURCES.txt'
+reading manifest file 'chessbot_chess.egg-info/SOURCES.txt'
+writing manifest file 'chessbot_chess.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/emmanuel/Chess-Bot-ROS2/install/chessbot_chess/lib/python3.10/site-packages/chessbot-chess.egg-link (link to .)
+
+Installed /home/emmanuel/Chess-Bot-ROS2/build/chessbot_chess
+running symlink_data
+creating /home/emmanuel/Chess-Bot-ROS2/install/chessbot_chess/share/ament_index
+creating /home/emmanuel/Chess-Bot-ROS2/install/chessbot_chess/share/ament_index/resource_index
+creating /home/emmanuel/Chess-Bot-ROS2/install/chessbot_chess/share/ament_index/resource_index/packages
+symbolically linking /home/emmanuel/Chess-Bot-ROS2/build/chessbot_chess/resource/chessbot_chess -> /home/emmanuel/Chess-Bot-ROS2/install/chessbot_chess/share/ament_index/resource_index/packages
+symbolically linking /home/emmanuel/Chess-Bot-ROS2/build/chessbot_chess/package.xml -> /home/emmanuel/Chess-Bot-ROS2/install/chessbot_chess/share/chessbot_chess

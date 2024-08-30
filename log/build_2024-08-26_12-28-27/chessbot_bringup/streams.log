@@ -1,0 +1,29 @@
+[0.321s] Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup -- -j4 -l4
+[0.872s] [ 33%] Built target goto_goal
+[0.977s] [ 66%] Built target add_collision
+[1.088s] [100%] Built target pick_and_place
+[1.445s] Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup -- -j4 -l4
+[1.495s] Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup
+[1.523s] -- Install configuration: ""
+[1.557s] -- Execute custom install script
+[1.558s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/launch/real.launch.py
+[1.568s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/launch/simulation.launch.py
+[1.636s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/lib/chessbot_bringup/goto_goal
+[1.668s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/lib/chessbot_bringup/add_collision
+[1.702s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/lib/chessbot_bringup/pick_and_place
+[1.703s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/ament_index/resource_index/package_run_dependencies/chessbot_bringup
+[1.703s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/ament_index/resource_index/parent_prefix_path/chessbot_bringup
+[1.704s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/environment/ament_prefix_path.sh
+[1.711s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/environment/ament_prefix_path.dsv
+[1.712s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/environment/path.sh
+[1.712s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/environment/path.dsv
+[1.712s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/local_setup.bash
+[1.713s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/local_setup.sh
+[1.713s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/local_setup.zsh
+[1.714s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/local_setup.dsv
+[1.715s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/package.dsv
+[1.725s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/ament_index/resource_index/packages/chessbot_bringup
+[1.726s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/cmake/chessbot_bringupConfig.cmake
+[1.726s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/cmake/chessbot_bringupConfig-version.cmake
+[1.726s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/package.xml
+[1.729s] Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup

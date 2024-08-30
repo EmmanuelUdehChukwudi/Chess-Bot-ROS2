@@ -1,0 +1,2 @@
+Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller': /usr/bin/cmake /home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller -DCMAKE_INSTALL_PREFIX=/home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller
+Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller' returned '1': /usr/bin/cmake /home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller -DCMAKE_INSTALL_PREFIX=/home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller

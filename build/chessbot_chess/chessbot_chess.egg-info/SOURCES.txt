@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+chessbot_chess/__init__.py
+chessbot_chess.egg-info/PKG-INFO
+chessbot_chess.egg-info/SOURCES.txt
+chessbot_chess.egg-info/dependency_links.txt
+chessbot_chess.egg-info/entry_points.txt
+chessbot_chess.egg-info/requires.txt
+chessbot_chess.egg-info/top_level.txt
+chessbot_chess.egg-info/zip-safe
+resource/chessbot_chess

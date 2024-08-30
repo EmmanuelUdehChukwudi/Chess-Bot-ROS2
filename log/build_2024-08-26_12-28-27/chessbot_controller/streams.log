@@ -1,0 +1,50 @@
+[0.062s] Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller -- -j4 -l4
+[1.290s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.885s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.096s] -- Found hardware_interface: 2.41.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[2.525s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.551s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.595s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.674s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.740s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.592s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.629s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[5.006s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[5.558s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[6.011s] -- Configuring done
+[6.565s] -- Generating done
+[6.569s] -- Build files have been written to: /home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller
+[6.647s] [35m[1mConsolidate compiler generated dependencies of target slider_control[0m
+[6.647s] [35m[1mConsolidate compiler generated dependencies of target chessbot_controller[0m
+[6.648s] [  0%] Built target ament_cmake_python_symlink_chessbot_controller
+[6.671s] [100%] Built target chessbot_controller
+[6.671s] [100%] Built target slider_control
+[7.093s] running egg_info
+[7.094s] writing chessbot_controller.egg-info/PKG-INFO
+[7.094s] writing dependency_links to chessbot_controller.egg-info/dependency_links.txt
+[7.095s] writing top-level names to chessbot_controller.egg-info/top_level.txt
+[7.105s] reading manifest file 'chessbot_controller.egg-info/SOURCES.txt'
+[7.106s] writing manifest file 'chessbot_controller.egg-info/SOURCES.txt'
+[7.143s] [100%] Built target ament_cmake_python_build_chessbot_controller_egg
+[7.157s] Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller -- -j4 -l4
+[7.196s] Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller
+[7.204s] -- Install configuration: ""
+[7.205s] -- Execute custom install script
+[7.226s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/environment/pythonpath.sh
+[7.226s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/environment/pythonpath.dsv
+[7.227s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/local/lib/python3.10/dist-packages/chessbot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[7.228s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/local/lib/python3.10/dist-packages/chessbot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.228s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/local/lib/python3.10/dist-packages/chessbot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.228s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/local/lib/python3.10/dist-packages/chessbot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[7.229s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/local/lib/python3.10/dist-packages/chessbot_controller/__init__.py
+[7.229s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/local/lib/python3.10/dist-packages/chessbot_controller/slider.py
+[7.230s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/lib/chessbot_controller/slider_control
+[7.230s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:204 (message):
+[7.230s]   ament_cmake_symlink_install_programs() can't find
+[7.230s]   '/home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller/slider.py'
+[7.230s] Call Stack (most recent call first):
+[7.230s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:329 (ament_cmake_symlink_install_programs)
+[7.231s]   cmake_install.cmake:46 (include)
+[7.231s] 
+[7.231s] [0m
+[7.232s] Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller

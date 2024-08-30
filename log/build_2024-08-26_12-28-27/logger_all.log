@@ -1,0 +1,366 @@
+[3.667s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[3.667s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x787b1b9f7970>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x787b1bb88190>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x787b1bb88190>>, mixin_verb=('build',))
+[10.374s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[10.374s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[10.374s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[10.374s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[10.374s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[10.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[10.375s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/emmanuel/Chess-Bot-ROS2'
+[10.375s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[10.375s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[10.376s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[10.376s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[10.376s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[10.376s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[10.376s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[10.376s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[10.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[10.489s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[10.490s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[10.490s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[10.490s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[10.490s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[10.490s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[10.491s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[10.491s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[10.491s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[10.491s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[10.491s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[10.492s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[10.492s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[10.492s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[10.492s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[10.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[10.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[10.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[10.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[10.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[10.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[10.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[10.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[10.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[10.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[10.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[10.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[10.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[10.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[10.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_bringup) by extension 'ignore'
+[10.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_bringup) by extension 'ignore_ament_install'
+[10.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_bringup) by extensions ['colcon_pkg']
+[10.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_bringup) by extension 'colcon_pkg'
+[10.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_bringup) by extensions ['colcon_meta']
+[10.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_bringup) by extension 'colcon_meta'
+[10.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_bringup) by extensions ['ros']
+[10.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_bringup) by extension 'ros'
+[10.513s] DEBUG:colcon.colcon_core.package_identification:Package 'src/chessbot_bringup' with type 'ros.ament_cmake' and name 'chessbot_bringup'
+[10.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_controller) by extensions ['ignore', 'ignore_ament_install']
+[10.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_controller) by extension 'ignore'
+[10.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_controller) by extension 'ignore_ament_install'
+[10.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_controller) by extensions ['colcon_pkg']
+[10.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_controller) by extension 'colcon_pkg'
+[10.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_controller) by extensions ['colcon_meta']
+[10.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_controller) by extension 'colcon_meta'
+[10.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_controller) by extensions ['ros']
+[10.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_controller) by extension 'ros'
+[10.531s] DEBUG:colcon.colcon_core.package_identification:Package 'src/chessbot_controller' with type 'ros.ament_cmake' and name 'chessbot_controller'
+[10.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_description) by extensions ['ignore', 'ignore_ament_install']
+[10.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_description) by extension 'ignore'
+[10.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_description) by extension 'ignore_ament_install'
+[10.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_description) by extensions ['colcon_pkg']
+[10.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_description) by extension 'colcon_pkg'
+[10.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_description) by extensions ['colcon_meta']
+[10.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_description) by extension 'colcon_meta'
+[10.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_description) by extensions ['ros']
+[10.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_description) by extension 'ros'
+[10.548s] DEBUG:colcon.colcon_core.package_identification:Package 'src/chessbot_description' with type 'ros.ament_cmake' and name 'chessbot_description'
+[10.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_moveit) by extensions ['ignore', 'ignore_ament_install']
+[10.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_moveit) by extension 'ignore'
+[10.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_moveit) by extension 'ignore_ament_install'
+[10.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_moveit) by extensions ['colcon_pkg']
+[10.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_moveit) by extension 'colcon_pkg'
+[10.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_moveit) by extensions ['colcon_meta']
+[10.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_moveit) by extension 'colcon_meta'
+[10.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_moveit) by extensions ['ros']
+[10.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/chessbot_moveit) by extension 'ros'
+[10.567s] DEBUG:colcon.colcon_core.package_identification:Package 'src/chessbot_moveit' with type 'ros.ament_cmake' and name 'chessbot_moveit'
+[10.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware) by extensions ['ignore', 'ignore_ament_install']
+[10.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware) by extension 'ignore'
+[10.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware) by extension 'ignore_ament_install'
+[10.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware) by extensions ['colcon_pkg']
+[10.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware) by extension 'colcon_pkg'
+[10.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware) by extensions ['colcon_meta']
+[10.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware) by extension 'colcon_meta'
+[10.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware) by extensions ['ros']
+[10.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware) by extension 'ros'
+[10.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware) by extensions ['cmake', 'python']
+[10.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware) by extension 'cmake'
+[10.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware) by extension 'python'
+[10.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware) by extensions ['python_setup_py']
+[10.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware) by extension 'python_setup_py'
+[10.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware/firmware) by extensions ['ignore', 'ignore_ament_install']
+[10.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware/firmware) by extension 'ignore'
+[10.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware/firmware) by extension 'ignore_ament_install'
+[10.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware/firmware) by extensions ['colcon_pkg']
+[10.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware/firmware) by extension 'colcon_pkg'
+[10.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware/firmware) by extensions ['colcon_meta']
+[10.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware/firmware) by extension 'colcon_meta'
+[10.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware/firmware) by extensions ['ros']
+[10.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware/firmware) by extension 'ros'
+[10.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware/firmware) by extensions ['cmake', 'python']
+[10.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware/firmware) by extension 'cmake'
+[10.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware/firmware) by extension 'python'
+[10.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware/firmware) by extensions ['python_setup_py']
+[10.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware/firmware) by extension 'python_setup_py'
+[10.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware/test_servos) by extensions ['ignore', 'ignore_ament_install']
+[10.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware/test_servos) by extension 'ignore'
+[10.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware/test_servos) by extension 'ignore_ament_install'
+[10.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware/test_servos) by extensions ['colcon_pkg']
+[10.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware/test_servos) by extension 'colcon_pkg'
+[10.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware/test_servos) by extensions ['colcon_meta']
+[10.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware/test_servos) by extension 'colcon_meta'
+[10.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware/test_servos) by extensions ['ros']
+[10.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware/test_servos) by extension 'ros'
+[10.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware/test_servos) by extensions ['cmake', 'python']
+[10.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware/test_servos) by extension 'cmake'
+[10.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware/test_servos) by extension 'python'
+[10.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware/test_servos) by extensions ['python_setup_py']
+[10.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware/test_servos) by extension 'python_setup_py'
+[10.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[10.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[10.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[10.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[10.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[10.904s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[10.905s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[10.947s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/emmanuel/Chess-Bot-ROS2/install
+[10.998s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 409 installed packages in /opt/ros/humble
+[11.010s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[13.998s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'chessbot_description' is in: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_description
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding chessbot_description
+
+This may be promoted to an error in a future release of colcon-override-check.
+[14.000s] Level 5:colcon.colcon_core.verb:set package 'chessbot_bringup' build argument 'cmake_args' from command line to 'None'
+[14.000s] Level 5:colcon.colcon_core.verb:set package 'chessbot_bringup' build argument 'cmake_target' from command line to 'None'
+[14.000s] Level 5:colcon.colcon_core.verb:set package 'chessbot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[14.000s] Level 5:colcon.colcon_core.verb:set package 'chessbot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[14.000s] Level 5:colcon.colcon_core.verb:set package 'chessbot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[14.000s] Level 5:colcon.colcon_core.verb:set package 'chessbot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[14.000s] Level 5:colcon.colcon_core.verb:set package 'chessbot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[14.000s] Level 5:colcon.colcon_core.verb:set package 'chessbot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[14.000s] Level 5:colcon.colcon_core.verb:set package 'chessbot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[14.000s] DEBUG:colcon.colcon_core.verb:Building package 'chessbot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup', 'merge_install': False, 'path': '/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup', 'symlink_install': True, 'test_result_base': None}
+[14.000s] Level 5:colcon.colcon_core.verb:set package 'chessbot_controller' build argument 'cmake_args' from command line to 'None'
+[14.000s] Level 5:colcon.colcon_core.verb:set package 'chessbot_controller' build argument 'cmake_target' from command line to 'None'
+[14.001s] Level 5:colcon.colcon_core.verb:set package 'chessbot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[14.001s] Level 5:colcon.colcon_core.verb:set package 'chessbot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[14.001s] Level 5:colcon.colcon_core.verb:set package 'chessbot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[14.001s] Level 5:colcon.colcon_core.verb:set package 'chessbot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[14.001s] Level 5:colcon.colcon_core.verb:set package 'chessbot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[14.001s] Level 5:colcon.colcon_core.verb:set package 'chessbot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[14.001s] Level 5:colcon.colcon_core.verb:set package 'chessbot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[14.001s] DEBUG:colcon.colcon_core.verb:Building package 'chessbot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller', 'merge_install': False, 'path': '/home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller', 'symlink_install': True, 'test_result_base': None}
+[14.001s] Level 5:colcon.colcon_core.verb:set package 'chessbot_description' build argument 'cmake_args' from command line to 'None'
+[14.001s] Level 5:colcon.colcon_core.verb:set package 'chessbot_description' build argument 'cmake_target' from command line to 'None'
+[14.001s] Level 5:colcon.colcon_core.verb:set package 'chessbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[14.001s] Level 5:colcon.colcon_core.verb:set package 'chessbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[14.001s] Level 5:colcon.colcon_core.verb:set package 'chessbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[14.001s] Level 5:colcon.colcon_core.verb:set package 'chessbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[14.001s] Level 5:colcon.colcon_core.verb:set package 'chessbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[14.001s] Level 5:colcon.colcon_core.verb:set package 'chessbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[14.002s] Level 5:colcon.colcon_core.verb:set package 'chessbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[14.002s] DEBUG:colcon.colcon_core.verb:Building package 'chessbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_description', 'merge_install': False, 'path': '/home/emmanuel/Chess-Bot-ROS2/src/chessbot_description', 'symlink_install': True, 'test_result_base': None}
+[14.002s] Level 5:colcon.colcon_core.verb:set package 'chessbot_moveit' build argument 'cmake_args' from command line to 'None'
+[14.002s] Level 5:colcon.colcon_core.verb:set package 'chessbot_moveit' build argument 'cmake_target' from command line to 'None'
+[14.002s] Level 5:colcon.colcon_core.verb:set package 'chessbot_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[14.002s] Level 5:colcon.colcon_core.verb:set package 'chessbot_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[14.002s] Level 5:colcon.colcon_core.verb:set package 'chessbot_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[14.002s] Level 5:colcon.colcon_core.verb:set package 'chessbot_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[14.002s] Level 5:colcon.colcon_core.verb:set package 'chessbot_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[14.002s] Level 5:colcon.colcon_core.verb:set package 'chessbot_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[14.002s] Level 5:colcon.colcon_core.verb:set package 'chessbot_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[14.002s] DEBUG:colcon.colcon_core.verb:Building package 'chessbot_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit', 'merge_install': False, 'path': '/home/emmanuel/Chess-Bot-ROS2/src/chessbot_moveit', 'symlink_install': True, 'test_result_base': None}
+[14.003s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[14.004s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[14.004s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup' with build type 'ament_cmake'
+[14.005s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/emmanuel/Chess-Bot-ROS2/src/chessbot_bringup'
+[14.075s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[14.076s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.076s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.100s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller' with build type 'ament_cmake'
+[14.100s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller'
+[14.101s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.101s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.106s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/emmanuel/Chess-Bot-ROS2/src/chessbot_description' with build type 'ament_cmake'
+[14.106s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/emmanuel/Chess-Bot-ROS2/src/chessbot_description'
+[14.107s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.107s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.111s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/emmanuel/Chess-Bot-ROS2/src/chessbot_moveit' with build type 'ament_cmake'
+[14.111s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/emmanuel/Chess-Bot-ROS2/src/chessbot_moveit'
+[14.112s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.112s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.164s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller -- -j4 -l4
+[14.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_moveit -- -j4 -l4
+[14.261s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_description -- -j4 -l4
+[14.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup -- -j4 -l4
+[14.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_moveit -- -j4 -l4
+[14.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/Chess-Bot-ROS2/build/chessbot_moveit
+[14.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_description -- -j4 -l4
+[14.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/Chess-Bot-ROS2/build/chessbot_description
+[14.869s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(chessbot_description)
+[14.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/Chess-Bot-ROS2/build/chessbot_description
+[15.277s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_description' for CMake module files
+[15.281s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_description' for CMake config files
+[15.283s] Level 1:colcon.colcon_core.shell:create_environment_hook('chessbot_description', 'cmake_prefix_path')
+[15.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/hook/cmake_prefix_path.ps1'
+[15.289s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/hook/cmake_prefix_path.dsv'
+[15.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/hook/cmake_prefix_path.sh'
+[15.307s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/bin'
+[15.307s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/lib/pkgconfig/chessbot_description.pc'
+[15.309s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/lib/python3.10/site-packages'
+[15.310s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/bin'
+[15.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/package.ps1'
+[15.331s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/package.dsv'
+[15.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/package.sh'
+[15.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/package.bash'
+[15.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/package.zsh'
+[15.428s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/colcon-core/packages/chessbot_description)
+[15.432s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(chessbot_moveit)
+[15.433s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit' for CMake module files
+[15.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/Chess-Bot-ROS2/build/chessbot_moveit
+[15.435s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit' for CMake config files
+[15.435s] Level 1:colcon.colcon_core.shell:create_environment_hook('chessbot_moveit', 'cmake_prefix_path')
+[15.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/hook/cmake_prefix_path.ps1'
+[15.436s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/hook/cmake_prefix_path.dsv'
+[15.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/hook/cmake_prefix_path.sh'
+[15.437s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/bin'
+[15.438s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/lib/pkgconfig/chessbot_moveit.pc'
+[15.438s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/lib/python3.10/site-packages'
+[15.438s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/bin'
+[15.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/package.ps1'
+[15.439s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/package.dsv'
+[15.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/package.sh'
+[15.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/package.bash'
+[15.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/package.zsh'
+[15.448s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/colcon-core/packages/chessbot_moveit)
+[15.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup -- -j4 -l4
+[15.463s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(chessbot_description)
+[15.464s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_description' for CMake module files
+[15.465s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_description' for CMake config files
+[15.465s] Level 1:colcon.colcon_core.shell:create_environment_hook('chessbot_description', 'cmake_prefix_path')
+[15.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/hook/cmake_prefix_path.ps1'
+[15.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/hook/cmake_prefix_path.dsv'
+[15.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/hook/cmake_prefix_path.sh'
+[15.468s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/bin'
+[15.469s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/lib/pkgconfig/chessbot_description.pc'
+[15.469s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/lib/python3.10/site-packages'
+[15.470s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/bin'
+[15.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/package.ps1'
+[15.471s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/package.dsv'
+[15.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/package.sh'
+[15.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/package.bash'
+[15.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/chessbot_description/package.zsh'
+[15.475s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/emmanuel/Chess-Bot-ROS2/install/chessbot_description/share/colcon-core/packages/chessbot_description)
+[15.481s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(chessbot_moveit)
+[15.482s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit' for CMake module files
+[15.482s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit' for CMake config files
+[15.483s] Level 1:colcon.colcon_core.shell:create_environment_hook('chessbot_moveit', 'cmake_prefix_path')
+[15.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/hook/cmake_prefix_path.ps1'
+[15.484s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/hook/cmake_prefix_path.dsv'
+[15.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/hook/cmake_prefix_path.sh'
+[15.487s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/bin'
+[15.488s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/lib/pkgconfig/chessbot_moveit.pc'
+[15.488s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/lib/python3.10/site-packages'
+[15.489s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/bin'
+[15.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/package.ps1'
+[15.490s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/package.dsv'
+[15.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/package.sh'
+[15.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/package.bash'
+[15.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/package.zsh'
+[15.494s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/colcon-core/packages/chessbot_moveit)
+[15.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup
+[15.733s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(chessbot_bringup)
+[15.733s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup' for CMake module files
+[15.734s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/Chess-Bot-ROS2/build/chessbot_bringup
+[15.735s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup' for CMake config files
+[15.736s] Level 1:colcon.colcon_core.shell:create_environment_hook('chessbot_bringup', 'cmake_prefix_path')
+[15.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/hook/cmake_prefix_path.ps1'
+[15.737s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/hook/cmake_prefix_path.dsv'
+[15.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/hook/cmake_prefix_path.sh'
+[15.738s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/lib'
+[15.739s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/bin'
+[15.739s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/lib/pkgconfig/chessbot_bringup.pc'
+[15.739s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/lib/python3.10/site-packages'
+[15.740s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/bin'
+[15.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/package.ps1'
+[15.741s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/package.dsv'
+[15.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/package.sh'
+[15.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/package.bash'
+[15.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/package.zsh'
+[15.743s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/colcon-core/packages/chessbot_bringup)
+[15.779s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(chessbot_bringup)
+[15.780s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup' for CMake module files
+[15.780s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup' for CMake config files
+[15.781s] Level 1:colcon.colcon_core.shell:create_environment_hook('chessbot_bringup', 'cmake_prefix_path')
+[15.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/hook/cmake_prefix_path.ps1'
+[15.782s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/hook/cmake_prefix_path.dsv'
+[15.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/hook/cmake_prefix_path.sh'
+[15.783s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/lib'
+[15.783s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/bin'
+[15.783s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/lib/pkgconfig/chessbot_bringup.pc'
+[15.784s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/lib/python3.10/site-packages'
+[15.784s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/bin'
+[15.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/package.ps1'
+[15.785s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/package.dsv'
+[15.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/package.sh'
+[15.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/package.bash'
+[15.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/chessbot_bringup/package.zsh'
+[15.799s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/emmanuel/Chess-Bot-ROS2/install/chessbot_bringup/share/colcon-core/packages/chessbot_bringup)
+[21.259s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller -- -j4 -l4
+[21.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller
+[21.334s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller
+[21.368s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(chessbot_controller)
+[21.369s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller' for CMake module files
+[21.392s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller' for CMake config files
+[21.402s] Level 1:colcon.colcon_core.shell:create_environment_hook('chessbot_controller', 'cmake_prefix_path')
+[21.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/hook/cmake_prefix_path.ps1'
+[21.403s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/hook/cmake_prefix_path.dsv'
+[21.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/hook/cmake_prefix_path.sh'
+[21.404s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/lib'
+[21.404s] Level 1:colcon.colcon_core.shell:create_environment_hook('chessbot_controller', 'ld_library_path_lib')
+[21.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/hook/ld_library_path_lib.ps1'
+[21.406s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/hook/ld_library_path_lib.dsv'
+[21.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/hook/ld_library_path_lib.sh'
+[21.407s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/bin'
+[21.407s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/lib/pkgconfig/chessbot_controller.pc'
+[21.407s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/lib/python3.10/site-packages'
+[21.408s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/bin'
+[21.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/package.ps1'
+[21.409s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/package.dsv'
+[21.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/package.sh'
+[21.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/package.bash'
+[21.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/chessbot_controller/package.zsh'
+[21.411s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/emmanuel/Chess-Bot-ROS2/install/chessbot_controller/share/colcon-core/packages/chessbot_controller)
+[21.421s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[21.422s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[21.422s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[21.422s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[21.559s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[21.559s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[21.559s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[21.588s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[21.589s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/emmanuel/Chess-Bot-ROS2/install/local_setup.ps1'
+[21.621s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/emmanuel/Chess-Bot-ROS2/install/_local_setup_util_ps1.py'
+[21.651s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/emmanuel/Chess-Bot-ROS2/install/setup.ps1'
+[21.677s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/emmanuel/Chess-Bot-ROS2/install/local_setup.sh'
+[21.681s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/emmanuel/Chess-Bot-ROS2/install/_local_setup_util_sh.py'
+[21.682s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/emmanuel/Chess-Bot-ROS2/install/setup.sh'
+[21.686s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/emmanuel/Chess-Bot-ROS2/install/local_setup.bash'
+[21.699s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/emmanuel/Chess-Bot-ROS2/install/setup.bash'
+[21.702s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/emmanuel/Chess-Bot-ROS2/install/local_setup.zsh'
+[21.719s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/emmanuel/Chess-Bot-ROS2/install/setup.zsh'

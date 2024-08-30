@@ -27,5 +27,5 @@ def generate_launch_description():
     
     return LaunchDescription([
         controller,
-        moveit,
+        # moveit,
     ])

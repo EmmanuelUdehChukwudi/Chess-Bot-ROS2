@@ -1,0 +1,9 @@
+source;share/chessbot_chess/hook/pythonpath.ps1
+source;share/chessbot_chess/hook/pythonpath.dsv
+source;share/chessbot_chess/hook/pythonpath.sh
+source;share/chessbot_chess/hook/ament_prefix_path.ps1
+source;share/chessbot_chess/hook/ament_prefix_path.dsv
+source;share/chessbot_chess/hook/ament_prefix_path.sh
+source;../../build/chessbot_chess/share/chessbot_chess/hook/pythonpath_develop.ps1
+source;../../build/chessbot_chess/share/chessbot_chess/hook/pythonpath_develop.dsv
+source;../../build/chessbot_chess/share/chessbot_chess/hook/pythonpath_develop.sh

@@ -1,0 +1,29 @@
+[0.207s] Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_moveit -- -j4 -l4
+[0.969s] Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/Chess-Bot-ROS2/build/chessbot_moveit -- -j4 -l4
+[1.004s] Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/Chess-Bot-ROS2/build/chessbot_moveit
+[1.074s] -- Install configuration: ""
+[1.284s] -- Execute custom install script
+[1.354s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/launch/moveit.launch.py
+[1.359s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/config/arm.srdf
+[1.360s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/config/initial_positions.yaml
+[1.361s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/config/joint_limits.yaml
+[1.362s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/config/kinematics.yaml
+[1.362s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/config/moveit.rviz
+[1.363s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/config/moveit_controllers.yaml
+[1.364s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/config/pilz_cartesian_limits.yaml
+[1.364s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/ament_index/resource_index/package_run_dependencies/chessbot_moveit
+[1.385s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/ament_index/resource_index/parent_prefix_path/chessbot_moveit
+[1.398s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/environment/ament_prefix_path.sh
+[1.398s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/environment/ament_prefix_path.dsv
+[1.426s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/environment/path.sh
+[1.426s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/environment/path.dsv
+[1.457s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/local_setup.bash
+[1.467s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/local_setup.sh
+[1.478s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/local_setup.zsh
+[1.479s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/local_setup.dsv
+[1.480s] -- Symlinking: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/package.dsv
+[1.491s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/ament_index/resource_index/packages/chessbot_moveit
+[1.506s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/cmake/chessbot_moveitConfig.cmake
+[1.527s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/cmake/chessbot_moveitConfig-version.cmake
+[1.557s] -- Up-to-date symlink: /home/emmanuel/Chess-Bot-ROS2/install/chessbot_moveit/share/chessbot_moveit/package.xml
+[1.562s] Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/Chess-Bot-ROS2/build/chessbot_moveit

@@ -325,8 +325,8 @@ ament_cmake_symlink_install_directory("/home/emmanuel/Chess-Bot-ROS2/src/chessbo
 # install("TARGETS" "slider_control" "DESTINATION" "lib/chessbot_controller")
 include("/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(PROGRAMS "chessbot_controller/slider.py" "DESTINATION" "lib/chessbot_controller")
-ament_cmake_symlink_install_programs("/home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller" PROGRAMS "chessbot_controller/slider.py" "DESTINATION" "lib/chessbot_controller")
+# install(PROGRAMS "chessbot_controller/slider.py" "chessbot_controller/move_joint_user.py" "DESTINATION" "lib/chessbot_controller")
+ament_cmake_symlink_install_programs("/home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller" PROGRAMS "chessbot_controller/slider.py" "chessbot_controller/move_joint_user.py" "DESTINATION" "lib/chessbot_controller")
 
 # install(FILES "arm_controller.xml" "DESTINATION" "share/chessbot_controller/")
 ament_cmake_symlink_install_files("/home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller" FILES "arm_controller.xml" "DESTINATION" "share/chessbot_controller/")
@@ -334,8 +334,8 @@ ament_cmake_symlink_install_files("/home/emmanuel/Chess-Bot-ROS2/src/chessbot_co
 # install("TARGETS" "chessbot_controller" "DESTINATION" "lib")
 include("/home/emmanuel/Chess-Bot-ROS2/build/chessbot_controller/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(DIRECTORY "include/" "DESTINATION" "include")
-ament_cmake_symlink_install_directory("/home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller" DIRECTORY "include/" "DESTINATION" "include")
+# install(DIRECTORY "include/" "DESTINATION" "include1")
+ament_cmake_symlink_install_directory("/home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller" DIRECTORY "include/" "DESTINATION" "include1")
 
 # install(DIRECTORY "config" "launch" "DESTINATION" "share/chessbot_controller")
 ament_cmake_symlink_install_directory("/home/emmanuel/Chess-Bot-ROS2/src/chessbot_controller" DIRECTORY "config" "launch" "DESTINATION" "share/chessbot_controller")

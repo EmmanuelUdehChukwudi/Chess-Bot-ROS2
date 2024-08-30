@@ -28,11 +28,15 @@ def generate_launch_description():
         package='chessbot_controller',
         executable='slider_control'
     )
+    slider_control_py_node = Node(
+        package='chessbot_controller',
+        executable='slider.py'
+    )
 
     return LaunchDescription(
         [
             controller,
             joint_state_publisher_gui_node,
-            slider_control_node
+            slider_control_py_node
         ]
     )

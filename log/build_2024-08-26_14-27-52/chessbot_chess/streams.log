@@ -1,0 +1,25 @@
+[2.418s] Invoking command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_chess': PYTHONPATH=/home/emmanuel/Chess-Bot-ROS2/build/chessbot_chess/prefix_override:/home/emmanuel/Chess-Bot-ROS2/install/chessbot_chess/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/emmanuel/Chess-Bot-ROS2/build/chessbot_chess/build --no-deps symlink_data
+[2.770s] running develop
+[2.788s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.788s]   warnings.warn(
+[3.051s] running egg_info
+[3.051s] creating chessbot_chess.egg-info
+[3.051s] writing chessbot_chess.egg-info/PKG-INFO
+[3.052s] writing dependency_links to chessbot_chess.egg-info/dependency_links.txt
+[3.052s] writing entry points to chessbot_chess.egg-info/entry_points.txt
+[3.052s] writing requirements to chessbot_chess.egg-info/requires.txt
+[3.052s] writing top-level names to chessbot_chess.egg-info/top_level.txt
+[3.052s] writing manifest file 'chessbot_chess.egg-info/SOURCES.txt'
+[3.055s] reading manifest file 'chessbot_chess.egg-info/SOURCES.txt'
+[3.056s] writing manifest file 'chessbot_chess.egg-info/SOURCES.txt'
+[3.058s] running build_ext
+[3.059s] Creating /home/emmanuel/Chess-Bot-ROS2/install/chessbot_chess/lib/python3.10/site-packages/chessbot-chess.egg-link (link to .)
+[3.060s] 
+[3.060s] Installed /home/emmanuel/Chess-Bot-ROS2/build/chessbot_chess
+[3.060s] running symlink_data
+[3.060s] creating /home/emmanuel/Chess-Bot-ROS2/install/chessbot_chess/share/ament_index
+[3.061s] creating /home/emmanuel/Chess-Bot-ROS2/install/chessbot_chess/share/ament_index/resource_index
+[3.061s] creating /home/emmanuel/Chess-Bot-ROS2/install/chessbot_chess/share/ament_index/resource_index/packages
+[3.061s] symbolically linking /home/emmanuel/Chess-Bot-ROS2/build/chessbot_chess/resource/chessbot_chess -> /home/emmanuel/Chess-Bot-ROS2/install/chessbot_chess/share/ament_index/resource_index/packages
+[3.061s] symbolically linking /home/emmanuel/Chess-Bot-ROS2/build/chessbot_chess/package.xml -> /home/emmanuel/Chess-Bot-ROS2/install/chessbot_chess/share/chessbot_chess
+[3.101s] Invoked command in '/home/emmanuel/Chess-Bot-ROS2/build/chessbot_chess' returned '0': PYTHONPATH=/home/emmanuel/Chess-Bot-ROS2/build/chessbot_chess/prefix_override:/home/emmanuel/Chess-Bot-ROS2/install/chessbot_chess/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/emmanuel/Chess-Bot-ROS2/build/chessbot_chess/build --no-deps symlink_data
